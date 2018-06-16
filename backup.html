@@ -1,0 +1,1194 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html" />
+        <meta charset="utf-8" />
+        <title>Here East :: Đào tạo, phát triển văn hoá Phương Đông</title>
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1" />-->
+        <meta name="description" content="" />
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="">
+        <meta property="og:image" content="">
+        <meta property="og:description" content="">
+        <meta property="og:url" content="">
+        <meta property="og:site_name" content="">
+        <link rel="canonical" href="" />
+        <link rel="shortcut icon" type="image/png" href="" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&amp;subset=vietnamese" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link media="all" type="text/css" rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/swiper.min.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/style.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+        <script src="js/jquery.slides.min.js"></script>
+        <script type="text/javascript" src="js/slick.js"></script>
+        <script src="js/swiper.min.js"></script>
+    </head>
+<body>
+
+<div class="wrap">
+
+    <div class="home_header">
+        <div class="container">
+            <div class="home_header_top">
+                <div class="header_logo">
+                    <img src="images/logo.png">
+                </div>
+                <div class="header_btn_menu">
+                    <div class="btn_menu_ico">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <span>Danh mục</span>
+                </div>
+                <div class="header_search">
+                    <form>
+                        <div class="search_wrap">
+                            <div class="ip_ico_search">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <input type="" name="" placeholder="Tìm kiếm">
+                        </div>
+                        <button>Tìm kiếm</button>
+                    </form>
+                </div>
+                <div class="header_cart">
+                    <div class="header_cart_img">
+                        <img src="images/icon/cart1.png">
+                        <span>1</span>
+                    </div>
+                </div>
+                <div class="header_user">
+                    <div class="user_log">
+                        <img src="images/icon/user_log.png">
+                    </div>
+                    <div class="user_act ">
+                        <p>Tài khoản</p>
+                        <span>Đăng ký / đăng nhập</span>
+                    </div>
+                    <div class="user_popup_log">
+                        <p class="user_popup_log_title">Đăng nhập</p>
+                        <div class="frm_user_login block">
+                            <input placeholder="Số điện thoại hoặc email" type="" name="">
+                            <input type="password" name="" placeholder="Mật khẩu">
+                            <button>Đăng nhập</button>
+                        </div>
+                        <div class="user_popup_log_or block">hoặc</div>
+                        <div class="frm_user_social block">
+                            <div class="frm_social_fb">
+                                <span>
+                                    Đăng nhập với Facebook
+                                </span>
+                            </div>
+                            <div class="frm_social_gg">
+                                <span>
+                                    Đăng nhập với Google
+                                </span>
+                            </div>
+                        </div>
+                        <div class="frm_user_regis block">
+                            <button>Đăng ký</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home_header_mid">
+                <h2>Learn it Proud it</h2>
+                <a>
+                    <div class="btn_home_start">
+                        Start now <i class="fa fa-chevron-right"></i>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $('.user_act ').click(function(){
+            if( !$(this).hasClass('user_act_active') ) {
+                $('.user_popup_log').fadeIn(200);
+                $(this).addClass('user_act_active');
+            }else{
+                $('.user_popup_log').fadeOut(200);
+                $(this).removeClass('user_act_active');
+            }
+        });
+
+        $(document).mouseup(function(e) {
+            var container_target = $(".user_popup_log");
+            if (!container_target.is(e.target) && container_target.has(e.target).length === 0) 
+            {
+                $('.user_popup_log').fadeOut(200);
+                $('.user_act').removeClass('user_act_active');
+            }
+        });
+    </script>
+
+    <div class="content_wrap">
+        <div class="container">
+
+            <!-- CATE MAIN-->
+            <!--<div class="cate_wrap margin_top_fix_cate cate_wrap_patern_red">
+                <div class="cate_wrap_title text_dark">
+                    HUYỀN HỌC
+                </div>
+                <div class="cate_wrap_content">
+                    <ul>
+                        <li class="fix_width_170">
+                            <div class="cate_wrap_content_parent">
+                                Dự đoán học
+                            </div>
+                            <div class="cate_wrap_content_child">
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Kinh dịch lộc hào</span></a>
+                                </div>
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Thái Ất Thần Kinh</span></a>
+                                </div>
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Kỳ Môn Độn Giáp</span></a>
+                                </div>
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Lục Nhâm</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="fix_width_170">
+                            <div class="cate_wrap_content_parent">
+                                Phong Thủy
+                            </div>
+                            <div class="cate_wrap_content_child">
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Loan Đầu</span></a>
+                                </div>
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Lý Khí</span></a>
+                                </div>
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Trạch Nhật</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="fix_width_170">
+                            <div class="cate_wrap_content_parent">
+                                Nhận diện
+                            </div>
+                            <div class="cate_wrap_content_child">
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Tướng pháp</span></a>
+                                </div>
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Chỉ tay</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="fix_width_170">
+                            <div class="cate_wrap_content_parent">
+                                Vận mệnh
+                            </div>
+                            <div class="cate_wrap_content_child">
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Tử vi</span></a>
+                                </div>
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Tứ trụ (Bát Tự)</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li class="fix_width_170">
+                            <div class="cate_wrap_content_parent">
+                                Nghi thức, nghi lễ
+                            </div>
+                            <div class="cate_wrap_content_child">
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Hầu đồng</span></a>
+                                </div>
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Cúng cổ</span></a>
+                                </div>
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Cúng tại gia</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="fix_width_170 margin_right_0">
+                            <div class="cate_wrap_content_parent">
+                                Nhân điện & Cảm xạ
+                            </div>
+                            <div class="cate_wrap_content_child">
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Nhân điện</span></a>
+                                </div>
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Cảm xạ</span></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>-->
+
+            <!-- CATE MAIN-->
+
+            
+
+            
+            <div class="courses_wrap">
+                <div class="courses_wrap_title">
+                    <span>Khoá học mới nhất</span>
+                    <a href="">Xem tất cả</a>
+                </div>
+                <div class="courses_wrap_content">
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_1.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Kích tài lộc 2018 - The Web Developer Bootcamp
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_2.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_3.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_1.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item margin_right_0">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_2.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_1.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_2.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_3.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_1.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item margin_right_0">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_2.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- LESSON MAIN-->
+            <div class="courses_wrap">
+                <div class="courses_wrap_title">
+                    <span>Bài học mới nhất</span>
+                    <a href="">Xem tất cả</a>
+                </div>
+                <div class="courses_wrap_content">
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_1.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_2.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_3.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_1.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item margin_right_0">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_2.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- DOCUMENT-->
+            <div class="courses_wrap">
+                <div class="courses_wrap_title">
+                    <span>Tài liệu đọc nhiều nhất</span>
+                    <a href="">Xem tất cả</a>
+                </div>
+                <div class="courses_wrap_content">
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_1.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_2.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_3.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_1.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item margin_right_0">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_2.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- CATE MAIN-->
+            <div class="cate_wrap cate_wrap_patern_black">
+                <div class="cate_wrap_title text_danger">
+                    ĐÔNG Y
+                </div>
+                <div class="cate_wrap_content">
+                    <ul>
+                        <li class="fix_width_208">
+                            <div class="cate_wrap_content_parent">
+                                Ẩm thực dưỡng sinh
+                            </div>
+                            <div class="cate_wrap_content_child">
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Kinh dịch lộc hào</span></a>
+                                </div>
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Thái Ất Thần Kinh</span></a>
+                                </div>
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Kỳ Môn Độn Giáp</span></a>
+                                </div>
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Lục Nhâm</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="fix_width_208">
+                            <div class="cate_wrap_content_parent">
+                                Châm cứu
+                            </div>
+                            <div class="cate_wrap_content_child">
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Loan Đầu</span></a>
+                                </div>
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Lý Khí</span></a>
+                                </div>
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Trạch Nhật</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="fix_width_208">
+                            <div class="cate_wrap_content_parent">
+                                Đông dược căn bản
+                            </div>
+                            <div class="cate_wrap_content_child">
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Tướng pháp</span></a>
+                                </div>
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Chỉ tay</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="fix_width_208">
+                            <div class="cate_wrap_content_parent">
+                                Xoa bóp bấm huyệt
+                            </div>
+                            <div class="cate_wrap_content_child">
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Tử vi</span></a>
+                                </div>
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Tứ trụ (Bát Tự)</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="fix_width_208 margin_right_0">
+                            <div class="cate_wrap_content_parent">
+                                Cảm mạo & Cạo gió
+                            </div>
+                            <div class="cate_wrap_content_child">
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Nhân điện</span></a>
+                                </div>
+                                <div class="cate_wrap_content_child_item">
+                                    <a><span>Cảm xạ</span></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- LESSON MAIN-->
+            <div class="courses_wrap">
+                <div class="courses_wrap_title">
+                    <span>Khoá học Đông Y mới nhất</span>
+                    <a href="">Xem tất cả</a>
+                </div>
+                <div class="courses_wrap_content">
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_1.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_2.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_3.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_1.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item margin_right_0">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_2.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- LESSON MAIN-->
+            <div class="courses_wrap">
+                <div class="courses_wrap_title">
+                    <span>Bài học Đông Y dành cho bạn</span>
+                    <a href="">Xem tất cả</a>
+                </div>
+                <div class="courses_wrap_content">
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_1.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_2.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_3.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_1.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item margin_right_0">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_2.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- LESSON MAIN-->
+            <div class="courses_wrap">
+                <div class="courses_wrap_title">
+                    <span>Tài liệu Đông Y</span>
+                    <a href="">Xem tất cả</a>
+                </div>
+                <div class="courses_wrap_content">
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_1.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_2.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_3.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_1.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="courses_listing_item margin_right_0">
+                            <div class="courses_listing_item_img">
+                                <img src="images/course_2.png">
+                            </div>
+                            <div class="courses_listing_item_content">
+                                <div class="product_listing_item_content_title">
+                                    Vòng cổ hộ thân hành Hỏa
+                                </div>
+                                <div class="courses_listing_item_author">
+                                    Thầy Tam Nguyên
+                                </div>
+                                <div class="courses_listing_item_price">
+                                    700.000 đ
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--<div class="home_teacher">
+        <div class="container">
+            <div class="home_teacher_img_listing">
+                <ul>
+                    <li>
+                        <img src="images/teacher_md_3.png">
+                    </li>
+                    <li>
+                        <img src="images/teacher_md_3.png">
+                    </li>
+                    <li class="home_teacher_active">
+                        <img src="images/teacher_md_3.png">
+                    </li>
+                    <li>
+                        <img src="images/teacher_md_3.png">
+                    </li>
+                    <li>
+                        <img src="images/teacher_md_3.png">
+                    </li>
+                </ul>
+            </div>
+            <div class="home_teacher_name">
+                Thầy Tam Nguyên
+            </div>
+            <div class="home_teacher_des">
+                Với hơn 15 năm nghiên cứu các bộ môn Văn hóa Phương Đông và tư vấn Phong thủy. Thầy đã trực tiếp và gián tiếp cùng các Thầy trong Hiệp hội tham gia tư vấn Phong thủy cho các dự án hàng đầu trong và ngoài nước. Hiện thầy là Tổng thư ký Hiệp hội Phong thủy thế giới - Phân hội tại Việt Nam. Viện phó thường trực Viện nghiên cứu phát triển Văn Hóa Phương Đông.
+            </div>
+            <div class="home_info">
+                <a href="">Xem hồ sơ</a>
+            </div>
+        </div>
+    </div>-->
+
+    <div class="home_strong">
+        <div class="container">
+            <div class="home_strong_item_center">
+                <img src="images/strong_logo.png">
+            </div>
+            <div class="circle_strong home_strong_item_center_1">
+                <span>Giải thích nền văn hoá phương Đông từ khía cạnh khoa học</span>
+            </div>
+            <div class="circle_strong home_strong_item_center_2">
+                <span>Dịch vụ tư vấn trực tiếp cho người học</span>
+            </div>
+            <div class="circle_strong home_strong_item_center_3">
+                <span>Diễn đàn trao đổi kiến thức rộng mở</span>
+            </div>
+            <div class="circle_strong home_strong_item_center_4">
+                <span>Khoá học & bài giảng song ngữ</span>
+            </div>
+            <div class="circle_strong home_strong_item_center_5">
+                <span>Kiến thức chuẩn từ giáo viên có chuyên môn và uy tín</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer_nav block">
+        <div class="container">
+            <div class="footer_nav_content block">
+                <div class="footer_nav_block">
+                    <div class="footer_nav_block_title block">
+                        Về Here East
+                    </div>
+                    <div class="footer_nav_block_content block">
+                        <div class="footer_nav_block_listing">
+                            Giới thiệu
+                        </div>
+                        <div class="footer_nav_block_listing">
+                            Điều khoản sử dụng
+                        </div>
+                        <div class="footer_nav_block_listing">
+                            Quy chế hoạt động
+                        </div>
+                        <div class="footer_nav_block_listing">
+                            Chính sách bảo mật
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_nav_block">
+                    <div class="footer_nav_block_title block">
+                        Học viên
+                    </div>
+                    <div class="footer_nav_block_content block">
+                        <div class="footer_nav_block_listing">
+                            Câu hỏi thường gặp
+                        </div>
+                        <div class="footer_nav_block_listing">
+                            Giải quyết tranh chấp
+                        </div>
+                        <div class="footer_nav_block_listing">
+                            Chính sách hoàn học phí
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_nav_block">
+                    <div class="footer_nav_block_title block">
+                        Giảng viên
+                    </div>
+                    <div class="footer_nav_block_content block">
+                        <div class="footer_nav_block_listing">
+                            Hỗ trợ giảng viên
+                        </div>
+                        <div class="footer_nav_block_listing">
+                            Giải quyết tranh chấp
+                        </div>
+                        <div class="footer_nav_block_listing">
+                            Chính sách hỗ trợ
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_nav_block">
+                    <div class="footer_nav_block_title block">
+                        Affiliate
+                    </div>
+                    <div class="footer_nav_block_content block">
+                        <div class="footer_nav_block_listing">
+                            Chính sách phát triển
+                        </div>
+                        <div class="footer_nav_block_listing">
+                            Giải quyết tranh chấp
+                        </div>
+                        <div class="footer_nav_block_listing">
+                            Chính sách hỗ trợ
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_nav_block footer_nav_block_last margin_right_0">
+                    <div class="footer_nav_block_content block">
+                        <div class="footer_nav_block_last_phone">
+                            1900 1999
+                        </div>
+                        <div class="footer_nav_block_last_email">
+                            cskh@hereeast.vn
+                        </div>
+                        <div class="footer_nav_block_app block">
+                            <div class="block">
+                                <img src="images/app_ios.png">
+                            </div>
+                            <div class="block">
+                                <img src="images/app_android.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer block">
+        <div class="container">
+            <div class="footer_content block">
+                <div class="footer_content_info">
+                    <div class="footer_content_contact block">
+                        <p>
+                            <b>© Công ty Cổ phần Phát triển Văn hóa Phương Đông</b> <br>
+                            Trụ sở chính: P1812, Tòa nhà 34T Hoàng Đạo Thúy, P. Trung Hòa, Cầu Giấy, Hà Nội <br>
+                            MST: 0108266291  do Sở Kế hoạch và Đầu tư TP.Hà Nội cấp ngày 09 tháng 05 năm 2018
+                        </p>
+                    </div>
+                </div>
+                <div class="footer_content_social block">
+                    <p>Kết nối với Here East</p>
+                    <img class="social_ico_fb" src="images/icon/fb_n.png">
+                    <img class="social_ico_yt" src="images/icon/yt_n.png">
+                    <img class="social_ico_in" src="images/icon/in_n.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+ 
+
+
