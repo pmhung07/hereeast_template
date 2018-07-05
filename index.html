@@ -39,10 +39,10 @@
             <div class="home_header_top">
                 <div class="header_logo">
                     <a href="index.html">
-                        <img src="images/logo.png">
+                        <img src="images/logo1.png">
                     </a>
                 </div>
-                <div class="header_btn_menu">
+                <div class="header_btn_menu txt_header_home">
                     <div class="btn_menu_ico">
                         <i class="fa fa-bars"></i>
                     </div>
@@ -50,13 +50,13 @@
                 </div>
                 <div class="header_search">
                     <form>
-                        <div class="search_wrap">
+                        <div class="search_wrap border_input_home">
                             <div class="ip_ico_search">
-                                <i class="fa fa-search"></i>
+                                <img class="block" src="images/icon/search.png">
                             </div>
-                            <input type="" name="" placeholder="Tìm kiếm">
+                            <input type="" name="" placeholder="Bạn muốn tìm gì?">
                         </div>
-                        <button>Tìm kiếm</button>
+                        <button class="bg_btn_home">Tìm kiếm</button>
                     </form>
                 </div>
                 <div class="header_cart">
@@ -67,11 +67,15 @@
                 </div>
                 <div class="header_user">
                     <div class="user_log">
-                        <img src="images/icon/user_log.png">
+                        <img src="images/icon/user_log1.png">
                     </div>
+                    <!--
+                        Để ý đoạn màu text,icon.., thông tin tài khoản nó có 2 kiểu màu và text
+                        khác nhau giữa trang chủ và trang trong nhé
+                    -->
                     <div class="user_act ">
-                        <p>Tài khoản</p>
-                        <span>Đăng ký / đăng nhập</span>
+                        <p class="text_dark">Tài khoản</p>
+                        <span class="text_gray">Đăng ký / đăng nhập</span>
                     </div>
                     <div class="user_popup_log">
                         <p class="user_popup_log_title">Đăng nhập</p>
@@ -97,7 +101,7 @@
                         </div>
                         <div class="frm_user_regis block">
                             <a href="register.html">
-                                <button>Đăng ký</button>
+                                Đăng ký tài khoản?
                             </a>
                         </div>
                     </div>
@@ -119,68 +123,81 @@
     <div class="content_wrap">
         <div class="container">
             <div class="home_category block">
-                <div class="home_category_parent" style="background-image: url(images/cate/huyenhoc.png)">
+                <div class="home_category_parent">
                     <a href="category.html">
-                        <div class="cate_overlay"></div>
-                        <div class="cate_wrap_text_parent">
-                            Huyền học
+                        <div class="bg_scale"  style="background-image: url(images/cate/huyenhoc.png)">
+                            <div class="cate_wrap_text_parent">
+                                Huyền học
+                            </div>
                         </div>
                     </a>
                 </div>
                 <div class="home_category_children">
-                    <div class="home_category_item" style="background-image: url(images/cate/dudoanhoc.png)">
-                        <a href="category.html">
-                            <div class="cate_overlay"></div>
-                            <div class="cate_wrap_text">
-                                <span class="cate_item_title">Dự đoán học</span>
-                                <span>288 Khoá học</span>
-                            </div>
-                        </a>
+                    <div class="home_category_item">
+                        <div class="bg_scale"  style="background-image: url(images/cate/dudoanhoc.png)">
+                            <a href="category.html">
+                                <div class="cate_overlay"></div>
+                                <div class="cate_wrap_text">
+                                    <span class="cate_item_title">Dự đoán học</span>
+                                    <span>288 Khoá học</span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="home_category_item" style="background-image: url(images/cate/phongthuy.png)">
-                        <a href="category.html">
-                            <div class="cate_overlay"></div>
-                            <div class="cate_wrap_text">
-                                <span class="cate_item_title">Phong thuỷ</span>
-                                <span>288 Khoá học</span>
-                            </div>
-                        </a>
+                    <div class="home_category_item">
+                        <div class="bg_scale"  style="background-image: url(images/cate/phongthuy.png)">
+                            <a href="category.html">
+                                <div class="cate_overlay"></div>
+                                <div class="cate_wrap_text">
+                                    <span class="cate_item_title">Phong thuỷ</span>
+                                    <span>288 Khoá học</span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="home_category_item margin_right_0"  style="background-image: url(images/cate/nhandien.png)">
-                        <a href="category.html">
-                            <div class="cate_overlay"></div>
-                            <div class="cate_wrap_text">
-                                <span class="cate_item_title">Nhận diện</span>
-                                <span>288 Khoá học</span>
-                            </div>
-                        </a>
+                    <div class="home_category_item margin_right_0">
+                        <div class="bg_scale"  style="background-image: url(images/cate/nhandien.png)">
+                            <a href="category.html">
+                                <div class="cate_overlay"></div>
+                                <div class="cate_wrap_text">
+                                    <span class="cate_item_title">Nhận diện</span>
+                                    <span>288 Khoá học</span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="home_category_item" style="background-image: url(images/cate/vanmenh.png)">
-                        <a href="category.html">
-                            <div class="cate_overlay"></div>
-                            <div class="cate_wrap_text">
-                                <span class="cate_item_title">Vận mệnh</span>
-                                <span>288 Khoá học</span>
-                            </div>
-                        </a>
+                    <div class="home_category_item">
+                        <div class="bg_scale"  style="background-image: url(images/cate/vanmenh.png)">
+                            <a href="category.html">
+                                <div class="cate_overlay"></div>
+                                <div class="cate_wrap_text">
+                                    <span class="cate_item_title">Vận mệnh</span>
+                                    <span>288 Khoá học</span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="home_category_item" style="background-image: url(images/cate/nghithucnghile.png)">
-                        <a href="category.html">    
-                            <div class="cate_overlay"></div>
-                            <div class="cate_wrap_text">
-                                <span class="cate_item_title">Nghi thức, nghi lễ</span>
-                                <span>288 Khoá học</span>
-                            </div>
-                        </a>
+                    <div class="home_category_item">
+                        <div class="bg_scale" style="background-image: url(images/cate/nghithucnghile.png)">
+                            <a href="category.html">    
+                                <div class="cate_overlay"></div>
+                                <div class="cate_wrap_text">
+                                    <span class="cate_item_title">Nghi thức, nghi lễ</span>
+                                    <span>288 Khoá học</span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="home_category_item margin_right_0" style="background-image: url(images/cate/nhandiencamxa.png)">
-                        <a href="category.html">
-                            <div class="cate_overlay"></div>
-                            <div class="cate_wrap_text">
-                                <span class="cate_item_title">Nhân điện & Cảm xạ</span>
-                                <span>288 Khoá học</span>
-                            </div>
-                        </a>
+                    <div class="home_category_item margin_right_0">
+                        <div class="bg_scale" style="background-image: url(images/cate/nhandiencamxa.png)">
+                            <a href="category.html">
+                                <div class="cate_overlay"></div>
+                                <div class="cate_wrap_text">
+                                    <span class="cate_item_title">Nhân điện & Cảm xạ</span>
+                                    <span>288 Khoá học</span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -484,68 +501,81 @@
             </div>
 
             <div class="home_category block">
-                <div class="home_category_parent" style="background-image: url(images/cate/dongy.png)">
+                <div class="home_category_parent">
                     <a href="category.html">
-                        <div class="cate_overlay"></div>
-                        <div class="cate_wrap_text_parent">
-                            Đông Y
+                        <div class="bg_scale"  style="background-image: url(images/cate/dongy.png)">
+                            <div class="cate_wrap_text_parent">
+                                Đông Y
+                            </div>
                         </div>
                     </a>
                 </div>
                 <div class="home_category_children">
-                    <div class="home_category_item" style="background-image: url(images/cate/dongynhapmon.png)">
-                        <a href="category.html">
-                            <div class="cate_overlay"></div>
-                            <div class="cate_wrap_text">
-                                <span class="cate_item_title">Đông Y nhập môn</span>
-                                <span>288 Khoá học</span>
-                            </div>
-                        </a>
+                    <div class="home_category_item">
+                        <div class="bg_scale" style="background-image: url(images/cate/dongynhapmon.png)">
+                            <a href="category.html">
+                                <div class="cate_overlay"></div>
+                                <div class="cate_wrap_text">
+                                    <span class="cate_item_title">Đông Y nhập môn</span>
+                                    <span>288 Khoá học</span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="home_category_item" style="background-image: url(images/cate/dongduocbaithuoc.png)">
-                        <a href="category.html">
-                            <div class="cate_overlay"></div>
-                            <div class="cate_wrap_text">
-                                <span class="cate_item_title">Đông dược - Bài thuốc</span>
-                                <span>288 Khoá học</span>
-                            </div>
-                        </a>
+                    <div class="home_category_item">
+                        <div class="bg_scale" style="background-image: url(images/cate/dongduocbaithuoc.png)">
+                            <a href="category.html">
+                                <div class="cate_overlay"></div>
+                                <div class="cate_wrap_text">
+                                    <span class="cate_item_title">Đông dược - Bài thuốc</span>
+                                    <span>288 Khoá học</span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="home_category_item margin_right_0"  style="background-image: url(images/cate/vatlytrilieu.png)">
-                        <a href="category.html">
-                            <div class="cate_overlay"></div>
-                            <div class="cate_wrap_text">
-                                <span class="cate_item_title">Vật lý trị liệu</span>
-                                <span>288 Khoá học</span>
-                            </div>
-                        </a>
+                    <div class="home_category_item margin_right_0">
+                        <div class="bg_scale" style="background-image: url(images/cate/vatlytrilieu.png)">
+                            <a href="category.html">
+                                <div class="cate_overlay"></div>
+                                <div class="cate_wrap_text">
+                                    <span class="cate_item_title">Vật lý trị liệu</span>
+                                    <span>288 Khoá học</span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="home_category_item" style="background-image: url(images/cate/amthuc.png)">
-                        <a href="category.html">
-                            <div class="cate_overlay"></div>
-                            <div class="cate_wrap_text">
-                                <span class="cate_item_title">Ẩm thực</span>
-                                <span>288 Khoá học</span>
-                            </div>
-                        </a>
+                    <div class="home_category_item">
+                        <div class="bg_scale" style="background-image: url(images/cate/amthuc.png)">
+                            <a href="category.html">
+                                <div class="cate_overlay"></div>
+                                <div class="cate_wrap_text">
+                                    <span class="cate_item_title">Ẩm thực</span>
+                                    <span>288 Khoá học</span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="home_category_item" style="background-image: url(images/cate/duongsinhlamdep.png)">
-                        <a href="category.html">
-                            <div class="cate_overlay"></div>
-                            <div class="cate_wrap_text">
-                                <span class="cate_item_title">Dưỡng sinh - Làm đẹp</span>
-                                <span>288 Khoá học</span>
-                            </div>
-                        </a>
+                    <div class="home_category_item">
+                        <div class="bg_scale" style="background-image: url(images/cate/duongsinhlamdep.png)">
+                            <a href="category.html">
+                                <div class="cate_overlay"></div>
+                                <div class="cate_wrap_text">
+                                    <span class="cate_item_title">Dưỡng sinh - Làm đẹp</span>
+                                    <span>288 Khoá học</span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                     <div class="home_category_item margin_right_0" style="background-color: #d8d8d8;">
-                        <a href="category.html">
-                            <div class="cate_overlay"></div>
-                            <div class="cate_wrap_text">
-                                <span class="cate_item_title">Danh mục khác</span>
-                                <span>288 Khoá học</span>
-                            </div>
-                        </a>
+                        <div class="bg_scale">
+                            <a href="category.html">
+                                <div class="cate_overlay"></div>
+                                <div class="cate_wrap_text">
+                                    <span class="cate_item_title">Danh mục khác</span>
+                                    <span>288 Khoá học</span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

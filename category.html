@@ -38,10 +38,10 @@
             <div class="home_header_top">
                 <div class="header_logo">
                     <a href="index.html">
-                        <img src="images/logo1.png">
+                        <img src="images/logo2.png">
                     </a>
                 </div>
-                <div class="header_btn_menu">
+                <div class="header_btn_menu txt_header_cate">
                     <div class="btn_menu_ico">
                         <i class="fa fa-bars"></i>
                     </div>
@@ -49,28 +49,64 @@
                 </div>
                 <div class="header_search">
                     <form>
-                        <div class="search_wrap">
+                        <div class="search_wrap border_input_cate">
                             <div class="ip_ico_search">
-                                <i class="fa fa-search"></i>
+                                <img class="block" src="images/icon/search.png">
                             </div>
-                            <input type="" name="" placeholder="Tìm kiếm">
+                            <input type="" name="" placeholder="Bạn muốn tìm gì?">
                         </div>
-                        <button>Tìm kiếm</button>
+                        <button class="bg_color_black">Tìm kiếm</button>
                     </form>
                 </div>
                 <div class="header_cart">
                     <div class="header_cart_img">
-                        <img src="images/icon/cart1.png">
+                        <img src="images/icon/cart.png">
                         <span>1</span>
                     </div>
                 </div>
+                <!--
+                    Để ý đoạn màu text,icon.., thông tin tài khoản nó có 2 kiểu màu và text
+                    khác nhau giữa trang chủ và trang trong nhé
+                -->
                 <div class="header_user">
                     <div class="user_log">
-                        <img src="images/avatar.jpg">
+                        <img src="images/avatar1.png">
                     </div>
                     <div class="user_act ">
-                        <p>Phạm Hùng</p>
-                        <span>pmhung07@gmail.com</span>
+                        <p class="text_white">
+                            Phạm Hùng
+                        </p>
+                        <div class="acc_dropdown text_light_pink">
+                            Tài khoản <i class="fa fa-sort-down"></i>
+                        </div>
+                    </div>
+                    <div class="user_popup_log user_popup_logged">
+                        <ul class="loggeg_func block">
+                            <li class="logged_acc">
+                                <a href="">Quản lý tài khoản</a>
+                            </li>
+                            <li class="logged_key">
+                                <a href="">Kích hoạt nội dung</a>
+                            </li>
+                            <li class="logged_buyed">
+                                <a href="">Nội dung đã mua</a>
+                            </li>
+                            <li class="logged_order">
+                                <a href="">Đơn hàng</a>
+                            </li>
+                            <li class="logged_noti">
+                                <a href="">Thông báo</a>
+                            </li>
+                            <li class="logged_vote">
+                                <a href="">Nhận xét của tôi</a>
+                            </li>
+                            <li class="logged_comment">
+                                <a href="">Thảo luận</a>
+                            </li>
+                            <li class="logged_logout">
+                                <a href="">Đăng xuất</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -78,32 +114,32 @@
         </div>
     </div>
 
-    <div class="banner_cate block" style="background: url('images/banner_cate.png')"></div>
-
-    <div class="breadcrum">
+    <div class="breadcrum_wrap">
         <div class="container">
-            <div class="breadcrum_top block">
-                <a href="/"><span>Trang chủ</span></a>
-                <a><span>> Huyền học</span></a>
-                <a><span>> Dự đoán học</span></a>
-                <span class="br_current">> Kinh dịch lục hào</span>
-            </div>
+            <ul class="breadcrumb">
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Huyền học</a></li>
+                <li>
+                    <a class="brd_active" href="#">Dự đoán học</a>
+                </li>
+                <li><span href="#">Kinh dịch lục hào</span></li>
+            </ul>
+
         </div>
     </div>
 
     <div class="content_wrap">
         <div class="container">
             <div class="cate_main block">
-                <div class="cate_main_name">
-                    Kinh dịch lục hào
-                </div>
                 <div class="cate_main_content block">
                     <div class="sidebar_main">
                         <ul class="block">
                             <li class="item_cate_main">
                                 <a class="a_main_cate">
                                     Huyền học
-                                    <div attr_expand="sub" class="point_expand">-</div>
+                                    <div attr_expand="sub" class="point_expand">
+                                        <i class="fa fa-angle-down"></i>
+                                    </div>
                                 </a>
                                 <ul class="expand expand_active">
                                     <li class="item_cate_parent">
@@ -175,7 +211,9 @@
                             <li class="item_cate_main">
                                 <a class="a_main_cate">
                                     Đông y
-                                    <div attr_expand="plus" class="point_expand">+</div>
+                                    <div attr_expand="plus" class="point_expand">
+                                        <i class="fa fa-angle-left"></i>
+                                    </div>
                                 </a>
                                 <ul class="expand">
                                     <li class="item_cate_parent">
@@ -196,6 +234,10 @@
                     <!-- Cate Content -->
 
                     <div class="cate_content_listing">
+                        <div class="cate_main_name">
+                            Kinh dịch lục hào
+                        </div>
+                        <div class="banner_cate" style="background: url('images/banner_cate1.png')"></div>
                         <div class="cate_content_listing_tab">
                             <div class="cate_tab_name">
                                 Khóa học
@@ -211,10 +253,10 @@
                         <div class="cate_content_listing_learn">
                             <a href="#">
                                 <div class="courses_listing_item_cate">
-                                    <div class="courses_listing_item_img">
+                                    <div class="courses_listing_item_cate_img">
                                         <img src="images/course_1.png">
                                     </div>
-                                    <div class="courses_listing_item_content">
+                                    <div class="courses_listing_item_cate_content">
                                         <div class="product_listing_item_content_title">
                                             Kích tài lộc 2018 - The Web Developer Bootcamp
                                         </div>
@@ -229,10 +271,10 @@
                             </a>
                             <a href="#">
                                 <div class="courses_listing_item_cate">
-                                    <div class="courses_listing_item_img">
+                                    <div class="courses_listing_item_cate_img">
                                         <img src="images/course_2.png">
                                     </div>
-                                    <div class="courses_listing_item_content">
+                                    <div class="courses_listing_item_cate_content">
                                         <div class="product_listing_item_content_title">
                                             Vòng cổ hộ thân hành Hỏa
                                         </div>
@@ -247,10 +289,10 @@
                             </a>
                             <a href="#">
                                 <div class="courses_listing_item_cate">
-                                    <div class="courses_listing_item_img">
+                                    <div class="courses_listing_item_cate_img">
                                         <img src="images/course_3.png">
                                     </div>
-                                    <div class="courses_listing_item_content">
+                                    <div class="courses_listing_item_cate_content">
                                         <div class="product_listing_item_content_title">
                                             Vòng cổ hộ thân hành Hỏa
                                         </div>
@@ -265,10 +307,10 @@
                             </a>
                             <a href="#">
                                 <div class="courses_listing_item_cate margin_right_0">
-                                    <div class="courses_listing_item_img">
+                                    <div class="courses_listing_item_cate_img">
                                         <img src="images/course_1.png">
                                     </div>
-                                    <div class="courses_listing_item_content">
+                                    <div class="courses_listing_item_cate_content">
                                         <div class="product_listing_item_content_title">
                                             Vòng cổ hộ thân hành Hỏa
                                         </div>
@@ -283,10 +325,10 @@
                             </a>
                             <a href="#">
                                 <div class="courses_listing_item_cate">
-                                    <div class="courses_listing_item_img">
+                                    <div class="courses_listing_item_cate_img">
                                         <img src="images/course_1.png">
                                     </div>
-                                    <div class="courses_listing_item_content">
+                                    <div class="courses_listing_item_cate_content">
                                         <div class="product_listing_item_content_title">
                                             Kích tài lộc 2018 - The Web Developer Bootcamp
                                         </div>
@@ -301,10 +343,10 @@
                             </a>
                             <a href="#">
                                 <div class="courses_listing_item_cate">
-                                    <div class="courses_listing_item_img">
+                                    <div class="courses_listing_item_cate_img">
                                         <img src="images/course_2.png">
                                     </div>
-                                    <div class="courses_listing_item_content">
+                                    <div class="courses_listing_item_cate_content">
                                         <div class="product_listing_item_content_title">
                                             Vòng cổ hộ thân hành Hỏa
                                         </div>
@@ -319,10 +361,10 @@
                             </a>
                             <a href="#">
                                 <div class="courses_listing_item_cate">
-                                    <div class="courses_listing_item_img">
+                                    <div class="courses_listing_item_cate_img">
                                         <img src="images/course_3.png">
                                     </div>
-                                    <div class="courses_listing_item_content">
+                                    <div class="courses_listing_item_cate_content">
                                         <div class="product_listing_item_content_title">
                                             Vòng cổ hộ thân hành Hỏa
                                         </div>
@@ -337,10 +379,10 @@
                             </a>
                             <a href="#">
                                 <div class="courses_listing_item_cate margin_right_0">
-                                    <div class="courses_listing_item_img">
+                                    <div class="courses_listing_item_cate_img">
                                         <img src="images/course_1.png">
                                     </div>
-                                    <div class="courses_listing_item_content">
+                                    <div class="courses_listing_item_cate_content">
                                         <div class="product_listing_item_content_title">
                                             Vòng cổ hộ thân hành Hỏa
                                         </div>
@@ -355,10 +397,10 @@
                             </a>
                             <a href="#">
                                 <div class="courses_listing_item_cate">
-                                    <div class="courses_listing_item_img">
+                                    <div class="courses_listing_item_cate_img">
                                         <img src="images/course_1.png">
                                     </div>
-                                    <div class="courses_listing_item_content">
+                                    <div class="courses_listing_item_cate_content">
                                         <div class="product_listing_item_content_title">
                                             Kích tài lộc 2018 - The Web Developer Bootcamp
                                         </div>
@@ -373,10 +415,10 @@
                             </a>
                             <a href="#">
                                 <div class="courses_listing_item_cate">
-                                    <div class="courses_listing_item_img">
+                                    <div class="courses_listing_item_cate_img">
                                         <img src="images/course_2.png">
                                     </div>
-                                    <div class="courses_listing_item_content">
+                                    <div class="courses_listing_item_cate_content">
                                         <div class="product_listing_item_content_title">
                                             Vòng cổ hộ thân hành Hỏa
                                         </div>
@@ -391,10 +433,10 @@
                             </a>
                             <a href="#">
                                 <div class="courses_listing_item_cate">
-                                    <div class="courses_listing_item_img">
+                                    <div class="courses_listing_item_cate_img">
                                         <img src="images/course_3.png">
                                     </div>
-                                    <div class="courses_listing_item_content">
+                                    <div class="courses_listing_item_cate_content">
                                         <div class="product_listing_item_content_title">
                                             Vòng cổ hộ thân hành Hỏa
                                         </div>
@@ -409,10 +451,10 @@
                             </a>
                             <a href="#">
                                 <div class="courses_listing_item_cate margin_right_0">
-                                    <div class="courses_listing_item_img">
+                                    <div class="courses_listing_item_cate_img">
                                         <img src="images/course_1.png">
                                     </div>
-                                    <div class="courses_listing_item_content">
+                                    <div class="courses_listing_item_cate_content">
                                         <div class="product_listing_item_content_title">
                                             Vòng cổ hộ thân hành Hỏa
                                         </div>

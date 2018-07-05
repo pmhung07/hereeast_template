@@ -25,13 +25,13 @@
         $(this).empty();
         if( $(this).attr('attr_expand') == 'plus' ){
             $('.point_expand').attr('attr_expand','plus');
-            $('.point_expand').text('+');
+            $('.point_expand').html('<i class="fa fa-angle-left"></i>');
             $(this).attr('attr_expand','sub');
-            $(this).text('-');
+            $(this).html('<i class="fa fa-angle-down"></i>');
             $(this).parent().parent().children('.expand').show();
         }else{
             $(this).attr('attr_expand','plus');
-            $(this).text('+');
+            $(this).html('<i class="fa fa-angle-left"></i>');
             $(this).parent().parent().children('.expand').hide();
         }
     });
