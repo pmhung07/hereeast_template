@@ -36,4 +36,30 @@
         }
     });
 
+    // POPUP MENU
+    $(".header_btn_menu").hover(function(){
+        $('.header_popup_menu').show();
+        }, function(){
+        $('.header_popup_menu').hide();
+    });
+    $('.li_menu_root').hover(function(){
+
+        // Check Default
+        if( !$(this).children('.ul_menu_parent').children('li').hasClass('li_active') ){
+            $(this).children('.ul_menu_parent').children('li').first().addClass('li_active');
+            $(this).children('.ul_menu_parent').children('li').children('ul').first().addClass('ul_active');
+        }
+
+        $('.li_menu_root').removeClass('li_active');
+        $('.ul_menu_parent').removeClass('ul_active');
+        $(this).addClass('li_active');
+        $(this).children('.ul_menu_parent').addClass('ul_active');
+    })
+    $('.ul_menu_parent > li').hover(function(){
+        $('.ul_menu_child').removeClass('ul_active');
+        $('.ul_menu_parent > li').removeClass('li_active');
+        $(this).addClass('li_active');
+        $(this).children('.ul_menu_child').addClass('ul_active');
+    })
+
 });
