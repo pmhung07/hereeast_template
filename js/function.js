@@ -62,4 +62,36 @@
         $(this).children('.ul_menu_child').addClass('ul_active');
     })
 
+    // RATING TEXT
+    $('.wr_rating').click(function(){
+        $('.fs-dtrtcmt').fadeIn(500);
+    });
+    $('.fs-dtrtbot-huy').click(function(){
+        $('.fs-dtrtcmt').fadeOut(500);
+    });
+
+    // COURSE VOTE STAR
+    $("#rateYo_Course").rateYo({
+        rating: 0,
+        fullStar: true,
+        starWidth: "22px",
+        onChange: function (rating, rateYoInstance) {
+            //rating = count nhé
+        }
+    });
+
+    // INSERT COMMENT TEXTAREA
+    $('.user_reply_text').click(function(){
+        $(".user_reply_me").remove();
+        $(this).parent().children(".append_txt_ans").append( '<div class="user_reply_me user_reply_me_course_info"><div class="user_reply_me_wrap"><div class="thumb"><img src="images/teacher1.png"></div><div class="user_name">Nguyen Mạnh</div></div><div class="user_reply_me_txt"><textarea></textarea></div></div>' );
+    });
+
+    // SCROLL TOP
+    $('.course_info_cont_tab_name a').click(function(){
+        var position = jQuery.attr(this, 'href').replace("/","");
+        $('html, body').animate({
+            scrollTop: jQuery(position).offset().top
+        }, 500);
+        return false;
+    });
 });
