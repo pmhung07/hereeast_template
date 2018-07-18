@@ -94,4 +94,28 @@
         }, 500);
         return false;
     });
+
+    // PROMOTION TYPE
+    $( ".ip_checkout_promotion" ).on( "keyup", function(){
+        if( !$(this).val() ) {
+            $('.type_text_close').hide();
+        }else{
+            $('.type_text_close').show();
+        }
+    });
+    $(".type_text_close").click(function(){
+        $( ".ip_checkout_promotion" ).val('');
+        $(this).hide();
+    });
+    $(".promotion_code_close").click(function(){
+        $('.content_checkout_info_order_promo_success').hide();
+    });
+
+    // TAB PANE CHECKOUT
+    $('.checkout_method_tab_item').click(function(){
+        $('.checkout_method_tab_item').removeClass('checkout_tab_active');
+        $('.checkout_method_tab_pane_content').removeClass('checkout_pane_active');
+        $(this).addClass('checkout_tab_active');
+        $( '#'+$(this).attr("attr-tab") ).addClass('checkout_pane_active');
+    });
 });
