@@ -3075,6 +3075,7 @@ body{
 
 .popup_add_to_cart{
     max-width: 800px;
+    display: none;
 }
 .popup_add_to_cart_wrap{
 
@@ -3779,8 +3780,182 @@ body{
     min-height: 400px;
 }
 
+/*USERS*/
+.account{
+    margin-top: 38px;
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.account_nav{
+    float: left;
+    width: 200px;
+}
+.account_nav_head{
+    float: left;
+    width: 100%;
+}
+.account_nav_head_avatar{
+    float: left;
+    width: 64px;
+    border-radius: 50%;
+    height: 64px;
+    overflow: hidden;
+    margin-right: 12px;
+}
+.account_nav_head_avatar img{
+    width: 100%;
+}
+.account_nav_head_name{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.account_nav_head_acc{
+    color: #939393;
+    margin-top: 5px;
+}
+.account_nav_menu{
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+}
+.account_nav_menu ul{
 
+}
+.account_nav_menu li{
+    background-size: 26px;
+    background-position: 0px 7px;
+    padding-top: 6px;
+    margin-bottom: 15px;
+}
+.a_acc_nav_pr{
+    color: #242424;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 40px;
+    height: 28px;
+    display: block;
+    line-height: 28px;
+}
+.account_nav_menu_child{
+    display: none;
+}
+.account_nav_menu_child_item{
+    height: 22px;
+    line-height: 22px;
+    margin: 10px 0px;
+}
+.account_nav_menu_child_item a{
+    color: #242424;
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: 400;
+}
 
-
-
-
+.acc_user{
+    background: url(../images/icon/acc.png) no-repeat;
+}
+.acc_key{
+    background: url(../images/icon/key.png) no-repeat;
+}
+.acc_buyed{
+    background: url(../images/icon/buyed.png) no-repeat;
+}
+.acc_order{
+    background: url(../images/icon/order.png) no-repeat;
+}
+.acc_noti{
+    background: url(../images/icon/noti.png) no-repeat;
+}
+.acc_comment{
+    background: url(../images/icon/comment.png) no-repeat;
+}
+.acc_user:hover{
+    background: url(../images/icon/acc_hover.png) no-repeat;
+    background-size: 26px;
+    background-position: 0px 7px;
+}
+.acc_key:hover{
+    background: url(../images/icon/key_hover.png) no-repeat;
+    background-size: 26px;
+    background-position: 0px 7px;
+}
+.acc_buyed:hover{
+    background: url(../images/icon/buyed_hover.png) no-repeat;
+    background-size: 26px;
+    background-position: 0px 7px;
+}
+.acc_order:hover{
+    background: url(../images/icon/order_hover.png) no-repeat;
+    background-size: 26px;
+    background-position: 0px 7px;
+}
+.acc_noti:hover{
+    background: url(../images/icon/noti_hover.png) no-repeat;
+    background-size: 26px;
+    background-position: 0px 7px;
+}
+.acc_comment:hover{
+    background: url(../images/icon/comment_hover.png) no-repeat;
+    background-size: 26px;
+    background-position: 0px 7px;
+}
+.acc_user_cur{
+    background: url(../images/icon/acc_hover.png) no-repeat!important;
+    background-size: 26px!important;
+    background-position: 0px 7px!important;
+}
+.acc_key_cur{
+    background: url(../images/icon/key_hover.png) no-repeat!important;
+    background-size: 26px!important;
+    background-position: 0px 7px!important;
+}
+.acc_buyed_cur{
+    background: url(../images/icon/buyed_hover.png) no-repeat!important;
+    background-size: 26px!important;
+    background-position: 0px 7px!important;
+}
+.acc_order_cur{
+    background: url(../images/icon/order_hover.png) no-repeat!important;
+    background-size: 26px!important;
+    background-position: 0px 7px!important;
+}
+.acc_noti_cur{
+    background: url(../images/icon/noti_hover.png) no-repeat!important;
+    background-size: 26px!important;
+    background-position: 0px 7px!important;
+}
+.acc_comment_cur{
+    background: url(../images/icon/comment_hover.png) no-repeat!important;
+    background-size: 26px!important;
+    background-position: 0px 7px!important;
+}
+.account_nav_active > a{
+    font-weight: 500;
+}
+.account_nav_active > .account_nav_menu_child{
+    display: block!important;
+}
+.a_acc_current_nav{
+    color: #bc6619!important;
+}
+.account_content{
+    float: right;
+    width: 950px;
+}
+.account_content_title{
+    height: 35px;
+    float: left;
+    width: 100%;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+.account_content_title span{
+    font-size: 20px;
+}
+.account_content_wrap{
+    background: #fff;
+    min-height: 500px;
+    float: left;
+    width: 100%;
+}
