@@ -118,4 +118,22 @@
         $(this).addClass('checkout_tab_active');
         $( '#'+$(this).attr("attr-tab") ).addClass('checkout_pane_active');
     });
+
+    // DATEPICKER
+    $( "#datepicker" ).datepicker({
+        dateFormat: 'dd-mm-yy'
+    });
+
+    // EDITINFO
+    $('.info_submit_edit').click(function(){
+        $(this).hide();
+        $('.acc_cur').hide();
+        $('.acc_editing').fadeIn(200);
+    });
+    $('.btn_cancel_update_info').click(function(){
+        $(this).hide();
+        $('.acc_editing').hide();
+        $('.acc_cur').fadeIn(200);
+        $('.info_submit_edit').fadeIn(200);
+    });
 });

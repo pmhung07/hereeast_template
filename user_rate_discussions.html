@@ -205,7 +205,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -225,11 +224,11 @@
                         </div>
                         <div class="account_nav_menu">
                             <ul>
-                                <li class="acc_user acc_user_cur account_nav_active">
+                                <li class="acc_user">
                                     <a class="a_acc_nav_pr" href="">Quản lý tài khoản</a>
                                     <div class="account_nav_menu_child">
                                         <div class="account_nav_menu_child_item">
-                                            <a class="a_acc_current_nav" href="">Thông tin cá nhân</a>
+                                            <a href="">Thông tin cá nhân</a>
                                         </div>
                                         <div class="account_nav_menu_child_item">
                                             <a href="">Đổi mật khẩu </a>
@@ -259,7 +258,7 @@
                                 <li class="acc_noti">
                                     <a class="a_acc_nav_pr" href="">Thông báo</a>
                                 </li>
-                                <li class="acc_comment">
+                                <li class="acc_comment acc_comment_cur account_nav_active">
                                     <a class="a_acc_nav_pr" href="">Đánh giá, thảo luận</a>
                                 </li>
                                 <li class="acc_logout">
@@ -270,55 +269,148 @@
                     </div>
 
                     <div class="account_content">
-                        <div class="account_content_title">
-                            <span>Thông tin cá nhân</span>
+                        <div class="user_vote_cont_wrap">
+                            <div class="user_vote_first">
+                                <div class="user_vote_last_txt">Đánh giá nội dung</div>
+                                <div class="user_vote_num">3/5</div>
+                                <div class="user_vote_listing_bar">
+                                    <div class="vote_listing_per vote_bar_danger" style="width: 30%;"></div>
+                                </div>
+                                <div class="user_vote_ana">
+                                    Đã đánh giá 3/5 nội dung của bạn
+                                </div>
+                            </div>
+                            <div class="user_vote_second">
+                                <div class="user_vote_last_txt">Nhận xét Giảng viên</div>
+                                <div class="user_vote_num">5/5</div>
+                                <div class="user_vote_listing_bar">
+                                    <div class="vote_listing_per vote_bar_success" style="width: 100%;"></div>
+                                </div>
+                                <div class="user_vote_ana">
+                                    Bạn đã nhận xét 2 Giảng viên
+                                </div>
+                            </div>
+                            <div class="course_vote_last">
+                                <div class="user_vote_last_txt">Thảo luận</div>
+                                <div class="user_vote_ana_discussion">
+                                    <span>388</span>/12
+                                </div>
+                                <div class="user_vote_ana">
+                                    Bạn đã nhận xét 2 Giảng viên
+                                </div>
+                            </div>
                         </div>
                         <div class="account_content_wrap">
-                            <div class="account_content_info">
-                                <div class="account_content_info_confirm">
-                                    <div class="account_content_info_details_item">
-                                        <label>Email</label>
-                                        <span>pmhung07@gmail.com</span>
+                            <div class="account_content_buyed">
+                                <div class="user_cate_content_listing_tab">
+                                    <div class="user_cate_tab_name">
+                                        Nội dung đã đánh giá
                                     </div>
-                                    <div class="account_content_info_details_item">
-                                        <label>Số điện thoại</label>
-                                        <span>01678481197</span>
+                                    <div class="user_cate_tab_name">
+                                        Giảng viên đã đánh giá
                                     </div>
-                                </div>
-                                <div class="account_content_info_details">
-                                    <div class="account_content_info_details_item">
-                                        <label>Họ tên</label>
-                                        <span class="acc_cur">Phạm Mạnh Hùng</span>
-                                        <input class="acc_editing" type="text" name="" value="Phạm Mạnh Hùng">
-                                    </div>
-                                    <div class="account_content_info_details_item">
-                                        <label>Ngày sinh</label>
-                                        <span class="acc_cur">10/12/1990</span>
-                                        <input value="10/12/1990" class="acc_editing" type="text" id="datepicker">
-                                    </div>
-                                    <div class="account_content_info_details_item">
-                                        <label>Giới tính</label>
-                                        <span class="acc_cur">Nam</span>
-                                        <select class="acc_editing">
-                                            <option>Nam</option>
-                                            <option>Nữ</option>
-                                        </select>
-                                    </div>
-                                    <div class="account_content_info_details_item">
-                                        <label>Địa chỉ</label>
-                                        <span class="acc_cur">35 Nguyễn Tuân - Thanh Xuân - Hà Nội</span>
-                                        <input class="acc_editing" type="text" name="" value="35 Nguyễn Tuân - Thanh Xuân - Hà Nội">
+                                    <div class="user_cate_tab_name">
+                                        Thảo luận của bạn
+                                        <div class="cate_tab_active"></div>
                                     </div>
                                 </div>
-                                <div class="account_content_info_submit">
-                                    <span class="info_submit_edit">Sửa thông tin</span>
-                                    <button class="acc_editing btn_update_info btn_danger">Cập nhật thông tin</button>
-                                    <button class="acc_editing btn_cancel_update_info">Huỷ</button>
+                                <div class="cate_content_listing_rating">
+                                    <div class="rating_item_listing_info rating_cmt_odd">
+                                        <div class="rating_item_listing_pos">
+                                            Bạn đã viết thảo luận tại bài học: <br>
+                                            <a>Khoá học kích tài lộc</a>
+                                        </div>
+                                        <div class="rating_item_listing_des"> 
+                                            <i class="fa fa-quote-left"></i> 
+                                            Thề luôn khoá học này học xong đéo hiểu cái gì luôn!!! "
+                                            <i class="fa fa-quote-right"></i>
+                                        </div>
+                                        <div class="rating_item_listing_date">
+                                            09: 23, 25/06/2018 
+                                        </div>
+                                    </div>
+                                    <div class="rating_item_listing_info rating_cmt_odd">
+                                        <div class="rating_item_listing_pos">
+                                            Bạn đã viết thảo luận tại bài học: <br>
+                                            <a>Khoá học kích tài lộc</a>
+                                        </div>
+                                        <div class="rating_item_listing_des"> 
+                                            <i class="fa fa-quote-left"></i> 
+                                            Thề luôn khoá học này học xong đéo hiểu cái gì luôn!!! "
+                                            <i class="fa fa-quote-right"></i>
+                                        </div>
+                                        <div class="rating_item_listing_date">
+                                            09: 23, 25/06/2018 
+                                        </div>
+                                    </div>
+                                    <div class="rating_item_listing_info rating_cmt_odd">
+                                        <div class="rating_item_listing_pos">
+                                            Bạn đã viết thảo luận tại bài học: <br>
+                                            <a>Khoá học kích tài lộc</a>
+                                        </div>
+                                        <div class="rating_item_listing_des"> 
+                                            <i class="fa fa-quote-left"></i> 
+                                            Thề luôn khoá học này học xong đéo hiểu cái gì luôn!!! "
+                                            <i class="fa fa-quote-right"></i>
+                                        </div>
+                                        <div class="rating_item_listing_date">
+                                            09: 23, 25/06/2018 
+                                        </div>
+                                    </div>
+                                    <div class="rating_item_listing_info rating_cmt_odd">
+                                        <div class="rating_item_listing_pos">
+                                            Bạn đã viết thảo luận tại bài học: <br>
+                                            <a>Khoá học kích tài lộc</a>
+                                        </div>
+                                        <div class="rating_item_listing_des"> 
+                                            <i class="fa fa-quote-left"></i> 
+                                            Thề luôn khoá học này học xong đéo hiểu cái gì luôn!!! "
+                                            <i class="fa fa-quote-right"></i>
+                                        </div>
+                                        <div class="rating_item_listing_date">
+                                            09: 23, 25/06/2018 
+                                        </div>
+                                    </div>
+                                </div>
+                                  
+                                <div class="user_rating_pag">
+                                    <ul class="pagination">
+                                        <li class="disabled">
+                                            <span>Đầu</span>
+                                        </li> 
+                                        <li class="active"><span>1</span></li>
+                                        <li>
+                                            <a>2</a>
+                                        </li>
+                                        <li>
+                                            <a>3</a>
+                                        </li>
+                                        <li>
+                                            <a>4</a>
+                                        </li>
+                                        <li>
+                                            <a>5</a>
+                                        </li>
+                                        <li>
+                                            <a>6</a>
+                                        </li>
+                                        <li>
+                                            <a>7</a>
+                                        </li>
+                                        <li>
+                                            <a>8</a>
+                                        </li>
+                                        <li>
+                                            <a>9</a>
+                                        </li> 
+                                        <li>
+                                            <a rel="next">Cuối</a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
 

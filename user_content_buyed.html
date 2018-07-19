@@ -225,11 +225,11 @@
                         </div>
                         <div class="account_nav_menu">
                             <ul>
-                                <li class="acc_user acc_user_cur account_nav_active">
+                                <li class="acc_user">
                                     <a class="a_acc_nav_pr" href="">Quản lý tài khoản</a>
                                     <div class="account_nav_menu_child">
                                         <div class="account_nav_menu_child_item">
-                                            <a class="a_acc_current_nav" href="">Thông tin cá nhân</a>
+                                            <a href="">Thông tin cá nhân</a>
                                         </div>
                                         <div class="account_nav_menu_child_item">
                                             <a href="">Đổi mật khẩu </a>
@@ -242,11 +242,11 @@
                                 <li class="acc_key">
                                     <a class="a_acc_nav_pr" href="">Kích hoạt nội dung</a>
                                 </li>
-                                <li class="acc_buyed">
+                                <li class="acc_buyed acc_buyed_cur account_nav_active">
                                     <a class="a_acc_nav_pr" href="">Nội dung của tôi</a>
                                     <div class="account_nav_menu_child">
                                         <div class="account_nav_menu_child_item">
-                                            <a href="">Nội dung đã mua</a>
+                                            <a class="a_acc_current_nav" href="">Nội dung đã mua</a>
                                         </div>
                                         <div class="account_nav_menu_child_item">
                                             <a href="">Đã lưu</a>
@@ -271,49 +271,148 @@
 
                     <div class="account_content">
                         <div class="account_content_title">
-                            <span>Thông tin cá nhân</span>
+                            <span>Nội dung đã mua</span>
                         </div>
                         <div class="account_content_wrap">
-                            <div class="account_content_info">
-                                <div class="account_content_info_confirm">
-                                    <div class="account_content_info_details_item">
-                                        <label>Email</label>
-                                        <span>pmhung07@gmail.com</span>
+                            <div class="account_content_buyed">
+                                <div class="user_cate_content_listing_tab">
+                                    <div class="user_cate_tab_name">
+                                        Khóa học
+                                        <div class="cate_tab_active"></div>
                                     </div>
-                                    <div class="account_content_info_details_item">
-                                        <label>Số điện thoại</label>
-                                        <span>01678481197</span>
+                                    <div class="user_cate_tab_name">
+                                        Bài học
                                     </div>
-                                </div>
-                                <div class="account_content_info_details">
-                                    <div class="account_content_info_details_item">
-                                        <label>Họ tên</label>
-                                        <span class="acc_cur">Phạm Mạnh Hùng</span>
-                                        <input class="acc_editing" type="text" name="" value="Phạm Mạnh Hùng">
-                                    </div>
-                                    <div class="account_content_info_details_item">
-                                        <label>Ngày sinh</label>
-                                        <span class="acc_cur">10/12/1990</span>
-                                        <input value="10/12/1990" class="acc_editing" type="text" id="datepicker">
-                                    </div>
-                                    <div class="account_content_info_details_item">
-                                        <label>Giới tính</label>
-                                        <span class="acc_cur">Nam</span>
-                                        <select class="acc_editing">
-                                            <option>Nam</option>
-                                            <option>Nữ</option>
-                                        </select>
-                                    </div>
-                                    <div class="account_content_info_details_item">
-                                        <label>Địa chỉ</label>
-                                        <span class="acc_cur">35 Nguyễn Tuân - Thanh Xuân - Hà Nội</span>
-                                        <input class="acc_editing" type="text" name="" value="35 Nguyễn Tuân - Thanh Xuân - Hà Nội">
+                                    <div class="user_cate_tab_name">
+                                        Tài liệu
                                     </div>
                                 </div>
-                                <div class="account_content_info_submit">
-                                    <span class="info_submit_edit">Sửa thông tin</span>
-                                    <button class="acc_editing btn_update_info btn_danger">Cập nhật thông tin</button>
-                                    <button class="acc_editing btn_cancel_update_info">Huỷ</button>
+                                <div class="cate_content_listing_learn">
+                                    <a href="#">
+                                        <div class="courses_listing_item_cate">
+                                            <div class="courses_listing_item_cate_img">
+                                                <img src="images/course_1.png">
+                                            </div>
+                                            <div class="courses_listing_item_cate_content">
+                                                <div class="product_listing_item_content_title">
+                                                    Kích tài lộc 2018 - The Web Developer Bootcamp
+                                                </div>
+                                                <div class="courses_listing_item_author">
+                                                    Thầy Tam Nguyên
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="courses_listing_item_cate">
+                                            <div class="courses_listing_item_cate_img">
+                                                <img src="images/course_2.png">
+                                            </div>
+                                            <div class="courses_listing_item_cate_content">
+                                                <div class="product_listing_item_content_title">
+                                                    Vòng cổ hộ thân hành Hỏa
+                                                </div>
+                                                <div class="courses_listing_item_author">
+                                                    Thầy Tam Nguyên
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="courses_listing_item_cate">
+                                            <div class="courses_listing_item_cate_img">
+                                                <img src="images/course_3.png">
+                                            </div>
+                                            <div class="courses_listing_item_cate_content">
+                                                <div class="product_listing_item_content_title">
+                                                    Vòng cổ hộ thân hành Hỏa
+                                                </div>
+                                                <div class="courses_listing_item_author">
+                                                    Thầy Tam Nguyên
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="courses_listing_item_cate margin_right_0">
+                                            <div class="courses_listing_item_cate_img">
+                                                <img src="images/course_1.png">
+                                            </div>
+                                            <div class="courses_listing_item_cate_content">
+                                                <div class="product_listing_item_content_title">
+                                                    Vòng cổ hộ thân hành Hỏa
+                                                </div>
+                                                <div class="courses_listing_item_author">
+                                                    Thầy Tam Nguyên
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="courses_listing_item_cate">
+                                            <div class="courses_listing_item_cate_img">
+                                                <img src="images/course_1.png">
+                                            </div>
+                                            <div class="courses_listing_item_cate_content">
+                                                <div class="product_listing_item_content_title">
+                                                    Kích tài lộc 2018 - The Web Developer Bootcamp
+                                                </div>
+                                                <div class="courses_listing_item_author">
+                                                    Thầy Tam Nguyên
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="courses_listing_item_cate">
+                                            <div class="courses_listing_item_cate_img">
+                                                <img src="images/course_2.png">
+                                            </div>
+                                            <div class="courses_listing_item_cate_content">
+                                                <div class="product_listing_item_content_title">
+                                                    Vòng cổ hộ thân hành Hỏa
+                                                </div>
+                                                <div class="courses_listing_item_author">
+                                                    Thầy Tam Nguyên
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="courses_listing_item_cate">
+                                            <div class="courses_listing_item_cate_img">
+                                                <img src="images/course_3.png">
+                                            </div>
+                                            <div class="courses_listing_item_cate_content">
+                                                <div class="product_listing_item_content_title">
+                                                    Vòng cổ hộ thân hành Hỏa
+                                                </div>
+                                                <div class="courses_listing_item_author">
+                                                    Thầy Tam Nguyên
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="courses_listing_item_cate margin_right_0">
+                                            <div class="courses_listing_item_cate_img">
+                                                <img src="images/course_1.png">
+                                            </div>
+                                            <div class="courses_listing_item_cate_content">
+                                                <div class="product_listing_item_content_title">
+                                                    Vòng cổ hộ thân hành Hỏa
+                                                </div>
+                                                <div class="courses_listing_item_author">
+                                                    Thầy Tam Nguyên
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!--SEEMORE BUTTON-->
+                                <div class="see_more">
+                                    <span class="btn_see_more">Xem thêm khoá học</span>
                                 </div>
                             </div>
                         </div>

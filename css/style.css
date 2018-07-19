@@ -2531,6 +2531,13 @@ body{
     border-radius: 3px;
     margin: 8px 10px;
     position:relative;
+    background: #e4e4e4;
+    position: relative;
+}
+.vote_listing_per{
+    position: absolute;
+    height: 6px;
+    border-radius: 3px;
 }
 .vote_listing_bar:after {
     content:'\A';
@@ -2823,6 +2830,12 @@ body{
 .pagination a {
     display: block;
     font-size: 13px;
+}
+.pagination li:first-child{
+    width: 50px;
+}
+.pagination li:last-child{
+    width: 50px;
 }
 .list-lecture-discussion{
     border-bottom: solid 1px #f3f3f3;
@@ -3870,6 +3883,9 @@ body{
 .acc_comment{
     background: url(../images/icon/comment.png) no-repeat;
 }
+.acc_logout{
+    background: url(../images/icon/logout.png) no-repeat;
+}
 .acc_user:hover{
     background: url(../images/icon/acc_hover.png) no-repeat;
     background-size: 26px;
@@ -3897,6 +3913,11 @@ body{
 }
 .acc_comment:hover{
     background: url(../images/icon/comment_hover.png) no-repeat;
+    background-size: 26px;
+    background-position: 0px 7px;
+}
+.acc_logout:hover{
+    background: url(../images/icon/logout_hover.png) no-repeat;
     background-size: 26px;
     background-position: 0px 7px;
 }
@@ -3942,6 +3963,7 @@ body{
 .account_content{
     float: right;
     width: 950px;
+    color: #454545;
 }
 .account_content_title{
     height: 35px;
@@ -3958,4 +3980,586 @@ body{
     min-height: 500px;
     float: left;
     width: 100%;
+    position: relative;
+    padding-bottom: 50px;
 }
+
+/* USER INFO */
+.account_content_info{
+    padding: 20px 40px;
+}
+.account_content_info_confirm{
+    margin-bottom: 20px;
+    border-bottom: solid 1px #f1f1f1;
+}
+.account_content_info_details{
+    
+}
+.account_content_info_details_item{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    height: 35px;
+    line-height: 35px;
+}
+.account_content_info_details_item label{
+    float: left;
+    width: 150px;
+    color: #747474;
+}
+.account_content_info_details_item span{
+
+}
+.account_content_info_details_item input{
+    float: left;
+    width: 350px;
+    height: 31px;
+    line-height: 31px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: solid 1px #e2e2e2;
+
+}
+.account_content_info_submit{
+    margin-top: 30px;
+}
+.account_content_info_details_item select{
+    float: left;
+    width: 362px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 5px;
+    border: solid 1px #e2e2e2;
+    outline: none;
+}
+.acc_editing{
+    display: none;
+}
+.account_content_info_submit span{
+    width: 130px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 1px #bc6619;
+    text-align: center;
+    line-height: 40px;
+    padding: 0px;
+    font-size: 14px;
+    color: #bc6619;
+    float: left;
+    cursor: pointer;
+}
+.btn_update_info{
+    width: 200px;
+    height: 42px;
+    border-radius: 2px;
+    background-image: linear-gradient(to bottom, #eb4242, #d32e2e);
+    text-align: center;
+    float: left;
+    line-height: 42px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0px;
+    border: none;
+    margin-left: 150px;
+}
+.btn_cancel_update_info{
+    width: 85px;
+    height: 42px;
+    border-radius: 2px;
+    background-image: linear-gradient(to bottom, #efebeb, #ececec);
+    text-align: center;
+    float: left;
+    line-height: 42px;
+    color: #000;
+    font-size: 14px;
+    padding: 0px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/*CHANGE PASSWORD*/
+.account_change_password{
+    width: 290px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.change_password_block{
+    margin-bottom: 15px;
+    float: left;
+    width: 100%;
+}
+.change_password_block input{
+    float: left;
+    width: 275px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    border-radius: 2px;
+    border: solid 1px #e2e2e2;
+}
+.change_password_block button{
+    width: 100%;
+    height: 42px;
+    border-radius: 2px;
+    background-image: linear-gradient(to bottom, #eb4242, #d32e2e);
+    text-align: center;
+    float: left;
+    line-height: 42px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0px;
+    border: none;
+}
+.account_content_upgrade{
+    padding: 40px 40px;
+}
+.account_content_upgrade_info{
+    color: #454545;
+    margin-bottom: 35px;
+    float: left;
+    width: 100%;
+}
+.account_content_upgrade_cont{
+    color: #454545;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    margin-left: 25px;
+}
+.upgrade_role_user{
+
+}
+.upgrade_role_user li{
+    margin-bottom: 30px;
+}
+.upgrade_role_user_chk{
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+.upgrade_role_user_chk input{
+
+}
+.upgrade_role_user_chk span{
+    font-weight: 500;
+}
+.upgrade_role_user_info{
+    text-align: left;
+    font-size: 12px;
+    color: #939393;
+    padding-left: 23px;
+    margin-top: 5px;
+}
+.role_user_info_des{
+    margin: 5px 23px;
+    line-height: 15px;
+}
+.upgrade_register_sbm{
+
+}
+.upgrade_register_sbm button{
+    width: 151px;
+    height: 42px;
+    border-radius: 2px;
+    background-image: linear-gradient(to bottom, #eb4242, #d32e2e);
+    text-align: center;
+    line-height: 42px;
+    font-size: 14px;
+    color: #fff;
+    padding: 0px;
+    border:none;
+}
+.account_content_active{
+    width: 450px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.account_content_active_block{
+    margin-bottom: 15px;
+    float: left;
+    width: 100%;
+}
+.account_content_active_block input{
+    float: left;
+    width: 435px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    border-radius: 2px;
+    border: solid 1px #e2e2e2;
+    text-align: center;
+}
+.account_content_active_block button{
+    width: 100%;
+    height: 42px;
+    border-radius: 2px;
+    background-image: linear-gradient(to bottom, #eb4242, #d32e2e);
+    text-align: center;
+    float: left;
+    line-height: 42px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0px;
+    border: none;
+}
+.account_content_txt_center{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.account_content_txt_center span{
+    font-size: 28px;
+}
+.account_content_txt_center p{
+    margin: 15px 0px;
+}
+.account_content_txt_support{
+    text-align: center;
+}
+.account_content_txt_support span{
+    color: #d32e2e;
+}
+/*ORDER*/
+.account_content_order{
+    float: left;
+    color: #454545;
+    width: 100%;
+}
+.account_content_order_item{
+    background: #fff;
+}
+.account_content_order_item_head{
+    height: 58px;
+    border-bottom: solid 1px #e6e6e6;
+}
+.account_content_order_item_head_info{
+    float: left;
+    width: 700px;
+    height: 58px;
+    line-height: 58px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.order_code{
+    color: #488cdb;
+}
+.order_status_name{
+    font-size: 13px;
+    margin-left: 30px;
+}
+.order_status_details{
+    font-size: 13px;
+}
+.account_content_order_item_head_right{
+    float: right;
+    height: 58px;
+    line-height: 58px;
+    font-size: 13px;
+    color: #747474;
+    margin-right: 20px;
+}
+.account_content_order_item_head_right span{
+    font-size: 13px;
+    color: #747474;
+}
+.account_content_order_item_body{
+    margin: 20px 20px 0px 40px;
+}
+.order_item_listing{
+    height: 68px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: solid 1px #f3f3f3;
+}
+.order_item_listing_info{
+    float: left;
+    width: 600px;
+    height: 68px;
+}
+.order_item_listing_img{
+    float: left;
+    width: 111px;
+    height: 68px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.order_item_listing_img img{
+    width: 100%;
+    height: 68px;
+}
+.order_item_listing_name{
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.order_item_listing_author{
+    color: #939393;
+}
+.order_item_listing_price{
+    float: right;
+    width: 290px;
+    height: 68px;
+}
+.order_item_listing_price span{
+    float: right;
+}
+.order_listing_price_sale{
+    float: right;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.order_price_sale{
+    color: #4caf50;
+}
+.order_price_coupon{
+    float: left!important;
+}
+.account_content_order_item_footer{
+    margin: 20px 20px 0px 40px;
+    padding-bottom: 35px;
+    margin-bottom: 15px;
+}
+.account_content_order_item_footer_total{
+    float: right;
+}
+.account_content_order_item_footer_total span{
+    font-weight: 500;
+    color: #d32e2e;
+}
+/*USER NOTI*/
+.cate_content_listing_noti{
+    margin: 30px 20px;  
+}
+.noti_item_listing_info{
+    height: 80px;
+    margin-bottom: 15px;
+}
+.noti_item_listing_img{
+    float: left;
+    width: 130px;
+    height: 80px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.noti_item_listing_img img{
+    width: 100%;
+    height: 80px;
+}
+.noti_item_listing_name{
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.noti_item_listing_des{
+    color: #454545;
+    line-height: 16px;
+    font-size: 12px;
+    height: 32px;
+    overflow: hidden;
+}
+.noti_item_listing_date{
+    margin-top: 5px;
+    color: #939393;
+    font-size: 12px;
+}
+.user_noti_pag{
+    margin: 0px 20px;
+}
+.user_cate_content_listing_tab{
+    border-bottom: solid 1px #efefef;
+    height: 50px;
+    margin: 0px 20px;
+}
+.user_cate_tab_name{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 60px;
+    font-size: 14px;
+    color: #1f1f1f;
+    position: relative;
+}
+/*DISCUSSION*/
+.cate_content_listing_rating{
+    margin: 30px 20px;  
+}
+.rating_item_listing_info{
+    height: 113px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.rating_item_listing_img{
+    float: left;
+    width: 187px;
+    height: 113px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.rating_item_listing_img img{
+    width: 100%;
+    height: 113px;
+}
+.rating_item_listing_name{
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.rating_item_listing_des{
+    color: #454545;
+    line-height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.rating_item_listing_des i{
+    color: #d8d8d8;
+}
+.rating_item_listing_date{
+    margin-top: 5px;
+    color: #939393;
+    font-size: 12px;
+}
+.user_rating_pag{
+    float: left;
+    margin: 0px 20px;
+}
+.rating_item_like{
+    background: url(../images/icon/like.png) no-repeat;
+    background-size: 14px;
+    background-position: 5px 0px;
+    padding-left: 24px;
+    margin-left: 25px;
+    font-size: 12px;
+}
+.rating_item_listing_star{
+    color: #f5a623;
+    margin-bottom: 5px;
+}
+/*USER VOTE HEAD*/
+
+.user_vote_cont_wrap{
+    height: 140px;
+    border-radius: 0px;
+    background-color: #ffffff;
+    border: solid 1px #f3f3f3;
+    margin-bottom: 15px;
+}
+.user_vote_first{
+    float: left;
+    width: 315px;
+    height: 100%;
+    text-align: center;
+    border-right: solid 1px #f3f3f3;
+}
+.user_vote_num{
+    font-size: 18px;
+    margin-top: 10px;
+    color: #3d3d3d;
+}
+.user_vote_star{
+    font-size: 17px;
+    margin: 5px 0px;
+}
+.user_vote_star i{
+    color: #f5a623;
+}
+.user_vote_ana{
+    font-size: 12px;
+    color: #747474;
+}
+.user_vote_second{
+    float: left;
+    width: 315px;
+    height: 100%;
+    text-align: center;
+    border-right: solid 1px #f3f3f3;
+}
+.user_ana_vote_listing{
+    float: left;
+    height: 22px;
+    line-height: 22px;
+}
+.user_vote_listing_txt{
+    float: left;
+    color: #747474;
+    font-size: 12px;
+}
+.user_vote_listing_num{
+    float: left;
+    color: #747474;
+    font-size: 12px;
+    width: 20px;
+    text-align: center;
+}
+.user_vote_last{
+    float: left;
+    color: #747474;
+    font-size: 12px;
+    width: 315px;
+}
+.user_vote_last_txt{
+    text-align: center;
+    font-size: 16px;
+    color: #4a4a4a;
+    margin-top: 25px;
+}
+.user_vote_listing_bar{
+    float: left;
+    width: 180px;
+    height: 6px;
+    border-radius: 3px;
+    margin: 10px 68px;
+    position: relative;
+    background: #e4e4e4;
+}
+.user_vote_ana{
+    color: #747474;
+    font-size: 12px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+.user_vote_ana_discussion{
+    text-align: center;
+    font-size: 28px;
+    margin: 14px 0px;
+}
+.user_vote_ana_discussion span{
+    color: #f14a4a;
+}
+.rating_item_teacher_listing_img{
+    width: 64px;
+    height: 113px;
+    float: left;
+    margin-right: 10px;
+}
+.rating_item_teacher_listing_img img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+.rating_item_listing_pos{
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.rating_cmt_odd{
+    background: whitesmoke;
+    padding: 15px;
+    border-left: solid 2px #cecece;
+    height: auto!important;
+}
+
+
+
+
+
+
+
