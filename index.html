@@ -145,7 +145,7 @@
                             </div>
                             <input type="" name="" placeholder="Bạn muốn tìm gì?">
                         </div>
-                        <button class="bg_btn_home">Tìm kiếm</button>
+                        <button class="bg_btn_home btn_danger">Tìm kiếm</button>
                     </form>
                 </div>
                 <div class="header_cart">
@@ -200,7 +200,7 @@
             <div class="home_header_mid">
                 <h2>Learn it Proud it</h2>
                 <a>
-                    <div class="btn_home_start">
+                    <div class="btn_home_start btn_danger">
                         Start now <i class="fa fa-chevron-right"></i>
                     </div>
                 </a>
@@ -293,7 +293,7 @@
             <div class="courses_wrap">
                 <div class="courses_wrap_title">
                     <span>Khoá học mới nhất</span>
-                    <a href="">Xem tất cả</a>
+                    <a class="btn_danger" href="">Xem tất cả</a>
                 </div>
                 <div class="courses_wrap_content">
                     <a href="#">
@@ -393,7 +393,7 @@
             <div class="courses_wrap">
                 <div class="courses_wrap_title">
                     <span>Bài học nổi bật</span>
-                    <a href="">Xem tất cả</a>
+                    <a class="btn_danger" href="">Xem tất cả</a>
                 </div>
                 <div class="courses_wrap_content">
                     <a href="#">
@@ -493,7 +493,7 @@
             <div class="courses_wrap">
                 <div class="courses_wrap_title">
                     <span>Tài liệu đọc nhiều nhất</span>
-                    <a href="">Xem tất cả</a>
+                    <a class="btn_danger" href="">Xem tất cả</a>
                 </div>
                 <div class="courses_wrap_content">
                     <a href="#">
@@ -673,7 +673,7 @@
             <div class="courses_wrap">
                 <div class="courses_wrap_title">
                     <span>Khoá học Đông Y mới nhất</span>
-                    <a href="">Xem tất cả</a>
+                    <a class="btn_danger" href="">Xem tất cả</a>
                 </div>
                 <div class="courses_wrap_content">
                     <a href="#">
@@ -773,7 +773,7 @@
             <div class="courses_wrap">
                 <div class="courses_wrap_title">
                     <span>Bài học Đông Y dành cho bạn</span>
-                    <a href="">Xem tất cả</a>
+                    <a class="btn_danger" href="">Xem tất cả</a>
                 </div>
                 <div class="courses_wrap_content">
                     <a href="#">
@@ -873,7 +873,7 @@
             <div class="courses_wrap">
                 <div class="courses_wrap_title">
                     <span>Tài liệu Đông Y</span>
-                    <a href="">Xem tất cả</a>
+                    <a class="btn_danger" href="">Xem tất cả</a>
                 </div>
                 <div class="courses_wrap_content">
                     <a href="#">
@@ -975,34 +975,91 @@
         <div class="container">
             <div class="home_teacher_img_listing">
                 <ul>
-                    <li>
+                    <li attr-tab="home_info_teacher_1" class="home_item_cl_teacher" >
                         <img src="images/teacher_md_3.png">
                     </li>
-                    <li>
+                    <li attr-tab="home_info_teacher_2" class="home_item_cl_teacher">
                         <img src="images/teacher_md_3.png">
                     </li>
-                    <li class="home_teacher_active">
+                    <li attr-tab="home_info_teacher_3" class="home_item_cl_teacher home_teacher_active">
                         <img src="images/teacher.png">
                     </li>
-                    <li>
+                    <li attr-tab="home_info_teacher_4" class="home_item_cl_teacher">
                         <img src="images/teacher_md_3.png">
                     </li>
-                    <li>
+                    <li attr-tab="home_info_teacher_5" class="home_item_cl_teacher">
                         <img src="images/teacher_md_3.png">
                     </li>
                 </ul>
             </div>
-            <div class="home_teacher_name">
-                Thầy Tam Nguyên
-            </div>
-            <div class="home_teacher_des">
-                Với hơn 15 năm nghiên cứu các bộ môn Văn hóa Phương Đông và tư vấn Phong thủy. Thầy đã trực tiếp và gián tiếp cùng các Thầy trong Hiệp hội tham gia tư vấn Phong thủy cho các dự án hàng đầu trong và ngoài nước. Hiện thầy là Tổng thư ký Hiệp hội Phong thủy thế giới - Phân hội tại Việt Nam. Viện phó thường trực Viện nghiên cứu phát triển Văn Hóa Phương Đông.
-            </div>
-            <div class="home_info">
-                <a href="">Xem hồ sơ</a>
+            <div class="home_info_teacher_wrap">
+                <div class="home_info_teacher_1 home_info_teacher">
+                    <div class="home_teacher_name">
+                        Thầy Tuệ Tâm
+                    </div>
+                    <div class="home_teacher_des">
+                        Với hơn 15 năm nghiên cứu các bộ môn Văn hóa Phương Đông và tư vấn Phong thủy. Thầy đã trực tiếp và gián tiếp cùng các Thầy trong Hiệp hội tham gia tư vấn Phong thủy cho các dự án hàng đầu trong và ngoài nước. Hiện thầy là Tổng thư ký Hiệp hội Phong thủy thế giới - Phân hội tại Việt Nam. Viện phó thường trực Viện nghiên cứu phát triển Văn Hóa Phương Đông.
+                    </div>
+                    <div class="home_info">
+                        <a class="btn_danger" href="">Xem hồ sơ</a>
+                    </div>
+                </div>
+                <div class="home_info_teacher_2 home_info_teacher">
+                    <div class="home_teacher_name">
+                        Thầy Trung HE
+                    </div>
+                    <div class="home_teacher_des">
+                        Với hơn 15 năm nghiên cứu các bộ môn Văn hóa Phương Đông và tư vấn Phong thủy. Thầy đã trực tiếp và gián tiếp cùng các Thầy trong Hiệp hội tham gia tư vấn Phong thủy cho các dự án hàng đầu trong và ngoài nước. Hiện thầy là Tổng thư ký Hiệp hội Phong thủy thế giới - Phân hội tại Việt Nam. Viện phó thường trực Viện nghiên cứu phát triển Văn Hóa Phương Đông.
+                    </div>
+                    <div class="home_info">
+                        <a class="btn_danger" href="">Xem hồ sơ</a>
+                    </div>
+                </div>
+                <div class="home_info_teacher_3 home_info_teacher home_info_teacher_active">
+                    <div class="home_teacher_name">
+                        Thầy Tam Nguyên
+                    </div>
+                    <div class="home_teacher_des">
+                        Với hơn 15 năm nghiên cứu các bộ môn Văn hóa Phương Đông và tư vấn Phong thủy. Thầy đã trực tiếp và gián tiếp cùng các Thầy trong Hiệp hội tham gia tư vấn Phong thủy cho các dự án hàng đầu trong và ngoài nước. Hiện thầy là Tổng thư ký Hiệp hội Phong thủy thế giới - Phân hội tại Việt Nam. Viện phó thường trực Viện nghiên cứu phát triển Văn Hóa Phương Đông.
+                    </div>
+                    <div class="home_info">
+                        <a class="btn_danger" href="">Xem hồ sơ</a>
+                    </div>
+                </div>
+                <div class="home_info_teacher_4 home_info_teacher">
+                    <div class="home_teacher_name">
+                        Thầy Bát Tự
+                    </div>
+                    <div class="home_teacher_des">
+                        Với hơn 15 năm nghiên cứu các bộ môn Văn hóa Phương Đông và tư vấn Phong thủy. Thầy đã trực tiếp và gián tiếp cùng các Thầy trong Hiệp hội tham gia tư vấn Phong thủy cho các dự án hàng đầu trong và ngoài nước. Hiện thầy là Tổng thư ký Hiệp hội Phong thủy thế giới - Phân hội tại Việt Nam. Viện phó thường trực Viện nghiên cứu phát triển Văn Hóa Phương Đông.
+                    </div>
+                    <div class="home_info">
+                        <a class="btn_danger" href="">Xem hồ sơ</a>
+                    </div>
+                </div>
+                <div class="home_info_teacher_5 home_info_teacher">
+                    <div class="home_teacher_name">
+                        Thầy Lợi
+                    </div>
+                    <div class="home_teacher_des">
+                        Với hơn 15 năm nghiên cứu các bộ môn Văn hóa Phương Đông và tư vấn Phong thủy. Thầy đã trực tiếp và gián tiếp cùng các Thầy trong Hiệp hội tham gia tư vấn Phong thủy cho các dự án hàng đầu trong và ngoài nước. Hiện thầy là Tổng thư ký Hiệp hội Phong thủy thế giới - Phân hội tại Việt Nam. Viện phó thường trực Viện nghiên cứu phát triển Văn Hóa Phương Đông.
+                    </div>
+                    <div class="home_info">
+                        <a class="btn_danger" href="">Xem hồ sơ</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+    <script type="text/javascript">
+        $('.home_item_cl_teacher').click(function(){
+            $('.home_item_cl_teacher').removeClass('home_teacher_active');
+            $(this).addClass('home_teacher_active');
+            $('.home_info_teacher').hide();
+            $( '.'+$(this).attr("attr-tab") ).fadeIn(500);
+        });
+    </script>
 
     <div class="courses_hot">
         <div class="container">
@@ -1103,7 +1160,7 @@
             </div>
 
             <div class="see_more_course_hot">
-                <span class="btn_see_more_trans">Xem thêm khoá học</span>
+                <span class="btn_see_more_trans btn_danger">Xem thêm khoá học</span>
             </div>
 
         </div>

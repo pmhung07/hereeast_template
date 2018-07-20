@@ -160,6 +160,8 @@ body{
 .btn_danger:hover{
     background-image: linear-gradient(to bottom, #eb4242, #c12a2a);
     cursor: pointer;
+    color: #fff;
+    border:none;
 }
 /* STYLE */
 
@@ -663,6 +665,7 @@ body{
     padding: 20px 15px;
     display: none;
     box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.5);
+    z-index: 999;
 }
 .user_popup_logged{
     width: 180px!important;
@@ -1198,6 +1201,15 @@ body{
     margin-top: 20px;
 }
 /* HOME TEACHER */
+.home_info_teacher_wrap{
+
+}
+.home_info_teacher{
+    display: none;
+}
+.home_info_teacher_active{
+    display: block;
+}
 .home_teacher{
     float: left;
     height: 520px;
@@ -1221,6 +1233,7 @@ body{
 .home_teacher_img_listing ul li{
     float: left;
     width: 75px;
+    cursor: pointer;
 }
 .home_teacher_img_listing img{
     width: 100%;
@@ -1954,7 +1967,6 @@ body{
     font-weight: 300;
 }
 .btn_see_more:hover{
-    background-image: linear-gradient(to bottom, #ef5454, #d84545);
     cursor: pointer;
 }
 .btn_see_more_trans{
@@ -1974,7 +1986,6 @@ body{
 }
 .btn_see_more_trans:hover{
     cursor: pointer;
-    background: #efefef;
 }
 .cate_tab_active{
     position: absolute;
