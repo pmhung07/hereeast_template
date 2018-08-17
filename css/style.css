@@ -1851,6 +1851,7 @@ body{
 }
 .item_cate_main{
     border-bottom: solid 1px #f1f1f1;
+    position: relative;
 }
 .a_main_cate{
     text-transform: uppercase;
@@ -1863,7 +1864,6 @@ body{
     border-bottom: solid 1px #ededed;
     padding-left: 27px;
     font-size: 16px;
-    position: relative;
 }
 .item_cate_parent{
     border-bottom: solid 1px #e8e8e8;
@@ -4568,7 +4568,20 @@ body{
     height: auto!important;
 }
 
-
+.text_hotline_sp{
+    color: #fff;
+    font-weight: 300!important;
+}
+.text_hotline_num{
+    background: url(../images/icon/phone1.png) no-repeat;
+    background-size: 12px;
+    background-position: 0px;
+    color: #fff;
+    font-weight: 500;
+    padding-left: 15px;
+    margin-top: 4px;
+    font-size: 14px;
+}
 
 
 

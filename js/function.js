@@ -28,12 +28,17 @@
             $('.point_expand').html('<i class="fa fa-angle-left"></i>');
             $(this).attr('attr_expand','sub');
             $(this).html('<i class="fa fa-angle-down"></i>');
-            $(this).parent().parent().children('.expand').show();
+            $(this).parent().children('.expand').show();
         }else{
             $(this).attr('attr_expand','plus');
             $(this).html('<i class="fa fa-angle-left"></i>');
-            $(this).parent().parent().children('.expand').hide();
+            $(this).parent().children('.expand').hide();
         }
+    });
+
+    $(".a_main_cate").bind('click', function( event ) {
+        var url = $(this).attr('data-url');
+        window.location.href = url;
     });
 
     // POPUP MENU
