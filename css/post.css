@@ -1,0 +1,334 @@
+.posts{
+    float: left;
+    width: 100%;
+}
+.posts_tit{
+    float: left;
+    width: 815px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.posts_cont{
+    float: left;
+    background-color: #fff;
+    width: 100%;
+    margin-bottom: 35px;
+}
+.posts_cont_left{
+    float: left;
+    width: 819px;
+}
+.posts_cont_left_nav{
+    height: 45px;
+    background: #fff;
+    padding: 0px 15px;
+    border-bottom: solid 1px #efefef;
+}
+.posts_cont_left_nav_item{
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-right: 45px;
+}
+.posts_cont_left_content_top{
+    float: left;
+    width: 100%;
+    background: #fff;
+}
+.posts_cont_left_news_top_left{
+    padding-top: 22px;
+    padding-left: 22px;
+    float: left;
+    background-color: #fff;
+    padding-bottom: 22px;
+}
+.posts_cont_left_news_top_main_img{
+    width: 795px;
+    float: left;
+    height: 440px;
+    overflow: hidden;
+}
+.posts_cont_left_news_top_main_img img{
+    width: 100%;
+    height: auto;
+}
+.posts_cont_left_news_top_main_title{
+    width: 795px;
+    float: left;
+    font-size: 26px;
+    margin: 20px 0px 10px 0px;
+    line-height: 30px;
+}
+.posts_cont_left_news_top_main_sort{
+    font-size: 15px;
+    line-height: 19px;
+    color: #4a4a4a;
+    float: left;
+    padding-right: 15px;
+}
+.posts_cont_left_news_top_right{
+    padding-top: 15px;
+    padding-right: 15px;
+    float: right;
+    width: 310px;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.posts_cont_left_news_top_right_item{
+    float: left;
+    width: 100%;
+}
+.posts_cont_left_news_top_right_item_img{
+    float: left;
+    width: 120px;
+    height: auto;
+    max-height: 80px;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.posts_cont_left_news_top_right_item_img img{
+    float: left;
+    width: 100%;
+}
+.posts_cont_left_news_top_right_item_title{
+    font-size: 14px;
+    line-height: 17px;
+}
+.posts_cont_listing{
+    float: left;
+    width: 100%;
+    background: #fff;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+.posts_cont_listing_item{
+    padding-left: 15px;
+    padding-top: 15px;
+    float: left;
+}
+.posts_cont_listing_item_img{
+    float: left;
+    width: 265px;
+    height: auto;
+    max-height: 175px;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.posts_cont_listing_item_img img{
+    float: left;
+    width: 100%;
+}
+.posts_cont_listing_item_cont{
+
+}
+.posts_cont_listing_item_cont_title{
+    font-size: 22px;
+    line-height: 25px;
+    margin-bottom: 7px;
+}
+.posts_cont_listing_item_cont_cat{
+    font-size: 12px;
+    color: #939393;
+    margin: 10px 0px;
+    text-transform: uppercase;
+}
+.posts_cont_listing_item_cont_sort{
+    font-size: 15px;
+    line-height: 20px;
+}
+.posts_cont_right{
+    float: right;
+    width: 380px;
+}
+.posts_cont_right_viewst{
+    float: left;
+    width: 335px;
+    background: #fff;
+    border: solid 1px #dbdbdb;
+    margin: 22px 22px;
+}
+.posts_cont_right_viewst_title{
+    height: 40px;
+    line-height: 40px;
+    padding: 15px 15px 0px 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 500;
+}
+.posts_cont_right_viewst_content{
+    float: left;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.posts_cont_right_viewst_item{
+    padding-left: 15px;
+    margin: 13px 0px;
+    float: left;
+}
+.viewst_item_num{
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 21px;
+    color: #fff;
+    margin-right: 15px;
+}
+.viewst_item_num span{
+    font-size: 21px;
+}
+.viewst_item_title{
+    font-size: 14px;
+    margin-top: 1px;
+    float: left;
+    width: 240px;
+    line-height: 17px;
+}
+.product_related_content_bot_right{
+    float: right;
+    background: #fff;
+    margin-top: 15px;
+}
+.posts_tit_nav{
+    float: left;
+    margin-top: 2px;
+    padding-left: 70px;
+}
+.posts_tit_nav_item{
+    float: left;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    padding-bottom: 3px;
+    color: #1f1f1f;
+    font-weight: 500;
+}
+.posts_tit_title{
+    float: left;
+    color:#454545;
+}
+.posts_tit_nav_item_active{
+    border-bottom: solid 3px #d32f2f;
+}
+.posts_cont_details{
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+}
+.posts_details{
+    float: left;
+    width: 100%;
+    background-color: #fff;
+}
+.posts_cont_details_lst{
+    width: 800px;
+    margin: 35px auto;
+    width: 800px;
+    margin: 35px 0px;
+}
+.posts_cont_details_lst_title{
+    font-size: 32px;
+    margin-bottom: 15px;
+    line-height: 38px;
+}
+.posts_cont_details_lst_sort{
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: 500;
+}
+.posts_cont_details_lst_cat{
+    color: #939393;
+    margin-top: 15px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.posts_cont_details_lst_cont{
+    font-size: 15px;
+    color: #000000;
+    font-weight: 400;
+    line-height: 19px;
+}
+.posts_cont_related_product{
+    float: left;
+    width: 100%;
+    background: #fff;
+    margin-top: 10px;
+}
+.posts_cont_related_lst_title{
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.posts_cont_related_lst_content{
+    float: left;
+    width: 100%;
+}
+.post_related_product_item{
+    float: left;
+    width: 245px;
+    margin-right: 31px;
+    margin-bottom: 30px;
+}
+.post_listing_item_last{
+    margin-right: 0px!important;
+}
+.post_related_product_item_img{
+    float: left;
+    width: 245px;
+    max-height: 160px;
+    overflow: hidden;
+}
+.post_related_product_item_img img{
+    width: 100%;
+    height: auto;
+}
+.post_related_product_item_title{
+    float: left;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 10px 0px;
+}
+.post_banner{
+    width: 360px;
+    float: right;
+    margin-top: 35px;
+}
+.post_banner img{
+    width: 100%;
+}
+.pagination_wrap{
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+    padding-left: 15px;
+}
+.posts_tags{
+
+}
+.pagination li:last-child {
+    width: 35px;
+}
+.pagination li:first-child {
+    width: 35px;
+}
+.posts_tags span{
+    padding: 5px 10px;
+    background-color: #f5f5f5;
+    margin: 0px 3px;
+    border: solid 1px #dddddd;
+}
+.tags_none{
+    background-color: #fff!important;
+    border:none!important;
+}
