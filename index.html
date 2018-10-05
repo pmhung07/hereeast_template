@@ -26,9 +26,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <!--RATE STAR-->
-        <link rel="stylesheet" href="css/jquery.rateyo.min.css">
-        <script src="js/jquery.rateyo.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
         <script src="js/jquery.slides.min.js"></script>
@@ -45,1243 +45,111 @@
             <div class="home_header_top">
                 <div class="header_logo">
                     <a href="index.html">
-                        <img src="images/logo1.png">
+                        <img src="images/logo@2x.png">
                     </a>
                 </div>
-                <div class="header_btn_menu txt_header_home">
-                    <div class="btn_menu_ico">
-                        <i class="fa fa-bars"></i>
-                    </div>
-                    <span>Danh mục</span>
-                    <!--Popup Menu-->
-                    <div class="header_popup_menu">
-                        <div class="popup_menu_wrap">
-                            <ul class="ul_menu_root">
-                                <li class="li_menu_root li_active">
-                                    <a>Huyền học</a>
-                                    <ul class="ul_menu_parent ul_active">
-                                        <li class="li_active">
-                                            <a>Dự đoán học</a>
-                                            <ul class="ul_menu_child ul_active">
-                                                <li><a>Kinh dịch lục hào</a></li>
-                                                <li><a>Thái ất thần kinh</a></li>
-                                                <li><a>Kỳ môn độn giáp</a></li>
-                                                <li><a>Lục nhâm</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a>Phong thuỷ</a>
-                                            <ul class="ul_menu_child">
-                                                <li><a>Loan đầu</a></li>
-                                                <li><a>Lý khí</a></li>
-                                                <li><a>Trạch nhật</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a>Nhận diện</a>
-                                            <ul class="ul_menu_child">
-                                                <li><a>Nhận diện</a></li>
-                                                <li><a>Cảm xạ</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a>Vận mệnh</a>
-                                            <ul class="ul_menu_child">
-                                                <li><a>Loan đầu</a></li>
-                                                <li><a>Lý khí</a></li>
-                                                <li><a>Trạch nhật</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a>Nghi thức, nghi lễ</a>
-                                            <ul class="ul_menu_child">
-                                                <li><a>Nhận diện</a></li>
-                                                <li><a>Cảm xạ</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a>Nhân điện & Cảm xạ</a>
-                                            <ul class="ul_menu_child">
-                                                <li><a>Kinh dịch lục hào</a></li>
-                                                <li><a>Thái ất thần kinh</a></li>
-                                                <li><a>Kỳ môn độn giáp</a></li>
-                                                <li><a>Lục nhâm</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="li_menu_root li_id_2">
-                                    <a>Đông y</a>
-                                    <ul class="ul_menu_parent">
-                                        <li>
-                                            <a>Thuốc trừ giun</a>
-                                            <ul class="ul_menu_child">
-                                                <li><a>Thuốc trừ giun loại mạnh</a></li>
-                                                <li><a>Thái ất thần kinh</a></li>
-                                                <li><a>Kỳ môn độn giáp</a></li>
-                                                <li><a>Lục nhâm</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a>Thuốc chống tiêu chảy</a>
-                                            <ul class="ul_menu_child">
-                                                <li><a>Loan đầu</a></li>
-                                                <li><a>Lý khí</a></li>
-                                                <li><a>Trạch nhật</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="header_search">
-                    <form>
-                        <div class="search_wrap border_input_home">
-                            <div class="ip_ico_search">
-                                <img class="block" src="images/icon/search.png">
-                            </div>
-                            <input type="" name="" placeholder="Bạn muốn tìm gì?">
-                        </div>
-                        <button class="bg_btn_home btn_danger">Tìm kiếm</button>
-                    </form>
-                </div>
-                <div class="header_cart">
-                    <div class="header_cart_img">
-                        <img src="images/icon/cart1.png">
-                        <span>1</span>
-                    </div>
-                </div>
-                <div class="header_user">
-                    <div class="user_log">
-                        <img src="images/icon/user_log1.png">
-                    </div>
-                    <!--
-                        Để ý đoạn màu text,icon.., thông tin tài khoản nó có 2 kiểu màu và text
-                        khác nhau giữa trang chủ và trang trong nhé
-                    -->
-                    <div class="user_act ">
-                        <p class="text_dark">Tài khoản</p>
-                        <span class="text_gray">Đăng ký / đăng nhập</span>
-                    </div>
-                    <div class="user_popup_log">
-                        <p class="user_popup_log_title">Đăng nhập</p>
-                        <div class="frm_user_login block">
-                            <form method="GET" action="login_success.html">
-                                <input placeholder="Số điện thoại hoặc email" type="" name="">
-                                <input type="password" name="" placeholder="Mật khẩu">
-                                <button>Đăng nhập</button>
-                            </form>
-                        </div>
-                        <div class="user_popup_log_or block">hoặc</div>
-                        <div class="frm_user_social block">
-                            <div class="frm_social_fb">
-                                <span>
-                                    Đăng nhập với Facebook
-                                </span>
-                            </div>
-                            <div class="frm_social_gg">
-                                <span>
-                                    Đăng nhập với Google
-                                </span>
-                            </div>
-                        </div>
-                        <div class="frm_user_regis block">
-                            <a href="register.html">
-                                Đăng ký tài khoản?
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="home_header_mid">
-                <h2>Learn it Proud it</h2>
-                <a>
-                    <div class="btn_home_start btn_danger">
-                        Start now <i class="fa fa-chevron-right"></i>
-                    </div>
-                </a>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="content_wrap">
-        <div class="container">
-            <div class="home_category block">
-                <div class="home_category_parent">
-                    <a href="category.html">
-                        <div class="bg_scale"  style="background-image: url(images/cate/huyenhoc.png)">
-                            <div class="cate_wrap_text_parent">
-                                Huyền học
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="home_category_children">
-                    <div class="home_category_item">
-                        <div class="bg_scale"  style="background-image: url(images/cate/dudoanhoc.png)">
-                            <a href="category.html">
-                                <div class="cate_overlay"></div>
-                                <div class="cate_wrap_text">
-                                    <span class="cate_item_title">Dự đoán học</span>
-                                    <span>288 Khoá học</span>
-                                </div>
+                <div class="header_menu">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Giới thiệu
                             </a>
-                        </div>
-                    </div>
-                    <div class="home_category_item">
-                        <div class="bg_scale"  style="background-image: url(images/cate/phongthuy.png)">
-                            <a href="category.html">
-                                <div class="cate_overlay"></div>
-                                <div class="cate_wrap_text">
-                                    <span class="cate_item_title">Phong thuỷ</span>
-                                    <span>288 Khoá học</span>
-                                </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Dịch vụ
                             </a>
-                        </div>
-                    </div>
-                    <div class="home_category_item margin_right_0">
-                        <div class="bg_scale"  style="background-image: url(images/cate/nhandien.png)">
-                            <a href="category.html">
-                                <div class="cate_overlay"></div>
-                                <div class="cate_wrap_text">
-                                    <span class="cate_item_title">Nhận diện</span>
-                                    <span>288 Khoá học</span>
-                                </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Kiến thức
                             </a>
-                        </div>
-                    </div>
-                    <div class="home_category_item">
-                        <div class="bg_scale"  style="background-image: url(images/cate/vanmenh.png)">
-                            <a href="category.html">
-                                <div class="cate_overlay"></div>
-                                <div class="cate_wrap_text">
-                                    <span class="cate_item_title">Vận mệnh</span>
-                                    <span>288 Khoá học</span>
-                                </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Liên hệ
                             </a>
-                        </div>
+                        </li>
+                    </ul>
+                    <div class="header_search">
+                        <form>
+                            <div class="search_wrap border_input_home">
+                                <div class="ip_ico_search">
+                                    <img class="block" src="images/search-material.png">
+                                </div>
+                                <input type="" name="" placeholder="Tìm kiếm?">
+                            </div>
+                        </form>
                     </div>
-                    <div class="home_category_item">
-                        <div class="bg_scale" style="background-image: url(images/cate/nghithucnghile.png)">
-                            <a href="category.html">    
-                                <div class="cate_overlay"></div>
-                                <div class="cate_wrap_text">
-                                    <span class="cate_item_title">Nghi thức, nghi lễ</span>
-                                    <span>288 Khoá học</span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="home_category_item margin_right_0">
-                        <div class="bg_scale" style="background-image: url(images/cate/nhandiencamxa.png)">
-                            <a href="category.html">
-                                <div class="cate_overlay"></div>
-                                <div class="cate_wrap_text">
-                                    <span class="cate_item_title">Nhân điện & Cảm xạ</span>
-                                    <span>288 Khoá học</span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="courses_wrap">
-                <div class="courses_wrap_title">
-                    <span>Khoá học mới nhất</span>
-                    <a class="btn_danger" href="">Xem tất cả</a>
-                </div>
-                <div class="courses_wrap_content">
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img" style="position: relative;">
-                                <img src="images/course_1.png">
-                                <span class="cont_user_liked" style="    position: absolute;width: 95px;height: 25px;background: #f5a623;left: 0;top: 10px;line-height: 25px;padding: 0px 10px;text-transform: uppercase;font-size: 11px;color: #fff;">
-                                    Được yêu thích
-                                </span>
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_2.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_3.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_1.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item margin_right_0">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_2.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- LESSON MAIN-->
-            <div class="courses_wrap">
-                <div class="courses_wrap_title">
-                    <span>Bài học nổi bật</span>
-                    <a class="btn_danger" href="">Xem tất cả</a>
-                </div>
-                <div class="courses_wrap_content">
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_1.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_2.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_3.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_1.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item margin_right_0">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_2.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- DOCUMENT-->
-            <div class="courses_wrap">
-                <div class="courses_wrap_title">
-                    <span>Tài liệu đọc nhiều nhất</span>
-                    <a class="btn_danger" href="">Xem tất cả</a>
-                </div>
-                <div class="courses_wrap_content">
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_1.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_2.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_3.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_1.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item margin_right_0">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_2.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="home_category block">
-                <div class="home_category_parent">
-                    <a href="category.html">
-                        <div class="bg_scale"  style="background-image: url(images/cate/dongy.png)">
-                            <div class="cate_wrap_text_parent">
-                                Đông Y
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="home_category_children">
-                    <div class="home_category_item">
-                        <div class="bg_scale" style="background-image: url(images/cate/dongynhapmon.png)">
-                            <a href="category.html">
-                                <div class="cate_overlay"></div>
-                                <div class="cate_wrap_text">
-                                    <span class="cate_item_title">Đông Y nhập môn</span>
-                                    <span>288 Khoá học</span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="home_category_item">
-                        <div class="bg_scale" style="background-image: url(images/cate/dongduocbaithuoc.png)">
-                            <a href="category.html">
-                                <div class="cate_overlay"></div>
-                                <div class="cate_wrap_text">
-                                    <span class="cate_item_title">Đông dược - Bài thuốc</span>
-                                    <span>288 Khoá học</span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="home_category_item margin_right_0">
-                        <div class="bg_scale" style="background-image: url(images/cate/vatlytrilieu.png)">
-                            <a href="category.html">
-                                <div class="cate_overlay"></div>
-                                <div class="cate_wrap_text">
-                                    <span class="cate_item_title">Vật lý trị liệu</span>
-                                    <span>288 Khoá học</span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="home_category_item">
-                        <div class="bg_scale" style="background-image: url(images/cate/amthuc.png)">
-                            <a href="category.html">
-                                <div class="cate_overlay"></div>
-                                <div class="cate_wrap_text">
-                                    <span class="cate_item_title">Ẩm thực</span>
-                                    <span>288 Khoá học</span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="home_category_item">
-                        <div class="bg_scale" style="background-image: url(images/cate/duongsinhlamdep.png)">
-                            <a href="category.html">
-                                <div class="cate_overlay"></div>
-                                <div class="cate_wrap_text">
-                                    <span class="cate_item_title">Dưỡng sinh - Làm đẹp</span>
-                                    <span>288 Khoá học</span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="home_category_item margin_right_0" style="background-color: #d8d8d8;">
-                        <div class="bg_scale">
-                            <a href="category.html">
-                                <div class="cate_overlay"></div>
-                                <div class="cate_wrap_text">
-                                    <span class="cate_item_title">Danh mục khác</span>
-                                    <span>288 Khoá học</span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- LESSON MAIN-->
-            <div class="courses_wrap">
-                <div class="courses_wrap_title">
-                    <span>Khoá học Đông Y mới nhất</span>
-                    <a class="btn_danger" href="">Xem tất cả</a>
-                </div>
-                <div class="courses_wrap_content">
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_1.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_2.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_3.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_1.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item margin_right_0">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_2.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- LESSON MAIN-->
-            <div class="courses_wrap">
-                <div class="courses_wrap_title">
-                    <span>Bài học Đông Y dành cho bạn</span>
-                    <a class="btn_danger" href="">Xem tất cả</a>
-                </div>
-                <div class="courses_wrap_content">
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_1.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_2.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_3.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_1.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item margin_right_0">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_2.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- LESSON MAIN-->
-            <div class="courses_wrap">
-                <div class="courses_wrap_title">
-                    <span>Tài liệu Đông Y</span>
-                    <a class="btn_danger" href="">Xem tất cả</a>
-                </div>
-                <div class="courses_wrap_content">
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_1.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_2.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_3.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_1.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="courses_listing_item margin_right_0">
-                            <div class="courses_listing_item_img">
-                                <img src="images/course_2.png">
-                            </div>
-                            <div class="courses_listing_item_content">
-                                <div class="product_listing_item_content_title">
-                                    Kích tài lộc 2018 - The Web Developer Bootcamp
-                                </div>
-                                <div class="courses_listing_item_author">
-                                    Thầy Tam Nguyên
-                                </div>
-                                <div class="courses_listing_item_price">
-                                    700.000 đ
-                                </div>
-                            </div>
-                        </div>
-                    </a>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="home_teacher">
-        <div class="container">
-            <div class="home_teacher_img_listing">
+    <div class="home_banner_1">
+        
+    </div>
+
+    <div class="menus_slider">
+        <div class="menus_slider_list">
+            <div class="container">
                 <ul>
-                    <li attr-tab="home_info_teacher_1" class="home_item_cl_teacher" >
-                        <img src="images/teacher_md_3.png">
-                    </li>
-                    <li attr-tab="home_info_teacher_2" class="home_item_cl_teacher">
-                        <img src="images/teacher_md_3.png">
-                    </li>
-                    <li attr-tab="home_info_teacher_3" class="home_item_cl_teacher home_teacher_active">
-                        <img src="images/teacher.png">
-                    </li>
-                    <li attr-tab="home_info_teacher_4" class="home_item_cl_teacher">
-                        <img src="images/teacher_md_3.png">
-                    </li>
-                    <li attr-tab="home_info_teacher_5" class="home_item_cl_teacher">
-                        <img src="images/teacher_md_3.png">
-                    </li>
+                    <li class="menus_slider_active"><span>Kiến trúc</span></li>
+                    <li><span>Nội thất</span></li>
+                    <li><span>Cảnh quan</span></li>
+                    <li><span>Công trình văn hóa</span></li>
+                    <li><span>Tư vấn phong thủy</span></li>
                 </ul>
+                <div class="menus_sl_contact">
+                    <div class="menus_sl_contact_email">
+                        <span>tuvan@kientrucphuongdong.vn</span>
+                    </div>
+                    <div class="menus_sl_contact_hotline">Hotline: <span>0968 958189</span></div>
+                </div>
             </div>
-            <div class="home_info_teacher_wrap">
-                <div class="home_info_teacher_1 home_info_teacher">
-                    <div class="home_teacher_name">
-                        Thầy Tuệ Tâm
-                    </div>
-                    <div class="home_teacher_des">
-                        Với hơn 15 năm nghiên cứu các bộ môn Văn hóa Phương Đông và tư vấn Phong thủy. Thầy đã trực tiếp và gián tiếp cùng các Thầy trong Hiệp hội tham gia tư vấn Phong thủy cho các dự án hàng đầu trong và ngoài nước. Hiện thầy là Tổng thư ký Hiệp hội Phong thủy thế giới - Phân hội tại Việt Nam. Viện phó thường trực Viện nghiên cứu phát triển Văn Hóa Phương Đông.
-                    </div>
-                    <div class="home_info">
-                        <a class="btn_danger" href="">Xem hồ sơ</a>
+        </div>
+        <div class="home_banner_2">
+            
+        </div>
+    </div>
+
+    <div class="gallery">
+        <div class="container">
+            <div class="gallery_left">
+                <div class="galerry_lst_block gallery_left_img_1">
+                    
+                </div>
+                <div class="galerry_lst_block gallery_left_img_2">
+                    
+                </div>
+                <div class="galerry_lst_block gallery_left_img_3">
+                    
+                </div>
+            </div>
+            <div class="gallery_right">
+                <div class="gallery_right_img_1">
+                    <div class="bg_scale">
+                        <div class="cate_wrap_text_parent">
+                            Công trình tiêu biểu
+                        </div>
                     </div>
                 </div>
-                <div class="home_info_teacher_2 home_info_teacher">
-                    <div class="home_teacher_name">
-                        Thầy Trung HE
-                    </div>
-                    <div class="home_teacher_des">
-                        Với hơn 15 năm nghiên cứu các bộ môn Văn hóa Phương Đông và tư vấn Phong thủy. Thầy đã trực tiếp và gián tiếp cùng các Thầy trong Hiệp hội tham gia tư vấn Phong thủy cho các dự án hàng đầu trong và ngoài nước. Hiện thầy là Tổng thư ký Hiệp hội Phong thủy thế giới - Phân hội tại Việt Nam. Viện phó thường trực Viện nghiên cứu phát triển Văn Hóa Phương Đông.
-                    </div>
-                    <div class="home_info">
-                        <a class="btn_danger" href="">Xem hồ sơ</a>
-                    </div>
+                <div class="galerry_lst_block gallery_right_img_2">
+                    
                 </div>
-                <div class="home_info_teacher_3 home_info_teacher home_info_teacher_active">
-                    <div class="home_teacher_name">
-                        Thầy Tam Nguyên
-                    </div>
-                    <div class="home_teacher_des">
-                        Với hơn 15 năm nghiên cứu các bộ môn Văn hóa Phương Đông và tư vấn Phong thủy. Thầy đã trực tiếp và gián tiếp cùng các Thầy trong Hiệp hội tham gia tư vấn Phong thủy cho các dự án hàng đầu trong và ngoài nước. Hiện thầy là Tổng thư ký Hiệp hội Phong thủy thế giới - Phân hội tại Việt Nam. Viện phó thường trực Viện nghiên cứu phát triển Văn Hóa Phương Đông.
-                    </div>
-                    <div class="home_info">
-                        <a class="btn_danger" href="">Xem hồ sơ</a>
-                    </div>
+                <div class="galerry_lst_block gallery_right_img_3">
+                    
                 </div>
-                <div class="home_info_teacher_4 home_info_teacher">
-                    <div class="home_teacher_name">
-                        Thầy Bát Tự
-                    </div>
-                    <div class="home_teacher_des">
-                        Với hơn 15 năm nghiên cứu các bộ môn Văn hóa Phương Đông và tư vấn Phong thủy. Thầy đã trực tiếp và gián tiếp cùng các Thầy trong Hiệp hội tham gia tư vấn Phong thủy cho các dự án hàng đầu trong và ngoài nước. Hiện thầy là Tổng thư ký Hiệp hội Phong thủy thế giới - Phân hội tại Việt Nam. Viện phó thường trực Viện nghiên cứu phát triển Văn Hóa Phương Đông.
-                    </div>
-                    <div class="home_info">
-                        <a class="btn_danger" href="">Xem hồ sơ</a>
-                    </div>
-                </div>
-                <div class="home_info_teacher_5 home_info_teacher">
-                    <div class="home_teacher_name">
-                        Thầy Lợi
-                    </div>
-                    <div class="home_teacher_des">
-                        Với hơn 15 năm nghiên cứu các bộ môn Văn hóa Phương Đông và tư vấn Phong thủy. Thầy đã trực tiếp và gián tiếp cùng các Thầy trong Hiệp hội tham gia tư vấn Phong thủy cho các dự án hàng đầu trong và ngoài nước. Hiện thầy là Tổng thư ký Hiệp hội Phong thủy thế giới - Phân hội tại Việt Nam. Viện phó thường trực Viện nghiên cứu phát triển Văn Hóa Phương Đông.
-                    </div>
-                    <div class="home_info">
-                        <a class="btn_danger" href="">Xem hồ sơ</a>
-                    </div>
+                <div class="galerry_lst_block gallery_right_img_4">
+                    
                 </div>
             </div>
         </div>
     </div>
 
-    <script type="text/javascript">
-        $('.home_item_cl_teacher').click(function(){
-            $('.home_item_cl_teacher').removeClass('home_teacher_active');
-            $(this).addClass('home_teacher_active');
-            $('.home_info_teacher').hide();
-            $( '.'+$(this).attr("attr-tab") ).fadeIn(500);
-        });
-    </script>
-
-    <div class="courses_hot">
-        <div class="container">
-            <div class="courses_hot_title block">
-                <span>Khoá học tiêu biểu</span>
-            </div>
-            <div class="courses_hot_content block">
-                <a href="#">
-                    <div class="courses_listing_item">
-                        <div class="courses_listing_item_img">
-                            <img src="images/course_1.png">
-                        </div>
-                        <div class="courses_listing_item_content">
-                            <div class="product_listing_item_content_title">
-                                Kích tài lộc 2018 - The Web Developer Bootcamp
-                            </div>
-                            <div class="courses_listing_item_author">
-                                Thầy Tam Nguyên
-                            </div>
-                            <div class="courses_listing_item_price">
-                                700.000 đ
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="courses_listing_item">
-                        <div class="courses_listing_item_img">
-                            <img src="images/course_2.png">
-                        </div>
-                        <div class="courses_listing_item_content">
-                            <div class="product_listing_item_content_title">
-                                Vòng cổ hộ thân hành Hỏa
-                            </div>
-                            <div class="courses_listing_item_author">
-                                Thầy Tam Nguyên
-                            </div>
-                            <div class="courses_listing_item_price">
-                                700.000 đ
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="courses_listing_item">
-                        <div class="courses_listing_item_img">
-                            <img src="images/course_3.png">
-                        </div>
-                        <div class="courses_listing_item_content">
-                            <div class="product_listing_item_content_title">
-                                Vòng cổ hộ thân hành Hỏa
-                            </div>
-                            <div class="courses_listing_item_author">
-                                Thầy Tam Nguyên
-                            </div>
-                            <div class="courses_listing_item_price">
-                                700.000 đ
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="courses_listing_item">
-                        <div class="courses_listing_item_img">
-                            <img src="images/course_1.png">
-                        </div>
-                        <div class="courses_listing_item_content">
-                            <div class="product_listing_item_content_title">
-                                Vòng cổ hộ thân hành Hỏa
-                            </div>
-                            <div class="courses_listing_item_author">
-                                Thầy Tam Nguyên
-                            </div>
-                            <div class="courses_listing_item_price">
-                                700.000 đ
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="courses_listing_item margin_right_0">
-                        <div class="courses_listing_item_img">
-                            <img src="images/course_2.png">
-                        </div>
-                        <div class="courses_listing_item_content">
-                            <div class="product_listing_item_content_title">
-                                Vòng cổ hộ thân hành Hỏa
-                            </div>
-                            <div class="courses_listing_item_author">
-                                Thầy Tam Nguyên
-                            </div>
-                            <div class="courses_listing_item_price">
-                                700.000 đ
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="see_more_course_hot">
-                <span class="btn_see_more_trans btn_danger">Xem thêm khoá học</span>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="home_strong">
-        <div class="container">
-            <div class="home_strong_item_center">
-                <img src="images/strong_logo1.png">
-            </div>
-            <div class="circle_strong home_strong_item_center_1">
-                <span>Giải thích <br>nền văn hoá<br> phương Đông <br>từ khía cạnh khoa học</span>
-            </div>
-            <div class="circle_strong home_strong_item_center_2">
-                <span>Dịch vụ<br> tư vấn trực<br> tiếp cho <br>người học</span>
-            </div>
-            <div class="circle_strong home_strong_item_center_3">
-                <span>Diễn đàn trao đổi kiến thức rộng mở</span>
-            </div>
-            <div class="circle_strong home_strong_item_center_4">
-                <span>Khoá học <br>& bài giảng <br>song ngữ</span>
-            </div>
-            <div class="circle_strong home_strong_item_center_5">
-                <span>Kiến thức chuẩn từ giáo viên có chuyên môn và uy tín</span>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer_nav block">
-        <div class="container">
-            <div class="footer_nav_content block">
-                <div class="footer_nav_block">
-                    <div class="footer_nav_block_title block">
-                        Về Here East
-                    </div>
-                    <div class="footer_nav_block_content block">
-                        <div class="footer_nav_block_listing">
-                            Giới thiệu
-                        </div>
-                        <div class="footer_nav_block_listing">
-                            Điều khoản sử dụng
-                        </div>
-                        <div class="footer_nav_block_listing">
-                            Quy chế hoạt động
-                        </div>
-                        <div class="footer_nav_block_listing">
-                            Chính sách bảo mật
-                        </div>
-                    </div>
-                </div>
-                <div class="footer_nav_block">
-                    <div class="footer_nav_block_title block">
-                        Học viên
-                    </div>
-                    <div class="footer_nav_block_content block">
-                        <div class="footer_nav_block_listing">
-                            Câu hỏi thường gặp
-                        </div>
-                        <div class="footer_nav_block_listing">
-                            Giải quyết tranh chấp
-                        </div>
-                        <div class="footer_nav_block_listing">
-                            Chính sách hoàn học phí
-                        </div>
-                    </div>
-                </div>
-                <div class="footer_nav_block">
-                    <div class="footer_nav_block_title block">
-                        Giảng viên
-                    </div>
-                    <div class="footer_nav_block_content block">
-                        <div class="footer_nav_block_listing">
-                            Hỗ trợ giảng viên
-                        </div>
-                        <div class="footer_nav_block_listing">
-                            Giải quyết tranh chấp
-                        </div>
-                        <div class="footer_nav_block_listing">
-                            Chính sách hỗ trợ
-                        </div>
-                    </div>
-                </div>
-                <div class="footer_nav_block">
-                    <div class="footer_nav_block_title block">
-                        Affiliate
-                    </div>
-                    <div class="footer_nav_block_content block">
-                        <div class="footer_nav_block_listing">
-                            Chính sách phát triển
-                        </div>
-                        <div class="footer_nav_block_listing">
-                            Giải quyết tranh chấp
-                        </div>
-                        <div class="footer_nav_block_listing">
-                            Chính sách hỗ trợ
-                        </div>
-                    </div>
-                </div>
-                <div class="footer_nav_block footer_nav_block_last margin_right_0">
-                    <div class="footer_nav_block_content block">
-                        <div class="footer_nav_block_last_phone">
-                            1900 1999
-                        </div>
-                        <div class="footer_nav_block_last_email">
-                            cskh@hereeast.vn
-                        </div>
-                        <div class="footer_nav_block_app block">
-                            <div class="block">
-                                <img src="images/app_ios.png">
-                            </div>
-                            <div class="block">
-                                <img src="images/app_android.png">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="home_banner_3">
+        
     </div>
 
     <div class="footer block">
@@ -1290,17 +158,28 @@
                 <div class="footer_content_info">
                     <div class="footer_content_contact block">
                         <p>
-                            <b>© Công ty Cổ phần Phát triển Văn hóa Phương Đông</b> <br>
-                            Trụ sở chính: P1812, Tòa nhà 34T Hoàng Đạo Thúy, P. Trung Hòa, Cầu Giấy, Hà Nội <br>
-                            MST: 0108266291  do Sở Kế hoạch và Đầu tư TP.Hà Nội cấp ngày 09 tháng 05 năm 2018
+                            <img src="images/logo@2x.png" style="width:200px;">
+                        </p>
+                        <p>
+                        © 2018 Here East Architecture & Design. All rights reserved.<br>
+                        Terms & Conditions
                         </p>
                     </div>
                 </div>
+                <div class="footer_content_com block">
+                    <span>Contact</span>
+                    <p>
+                        Office: P.401, Tòa nhà 34T, đường Hoàng Đạo Thúy, P. Trung Hòa, Cầu Giấy, Hà Nội
+                    </p>
+                    <p>
+                        Hotline: <b>0968 95 8189</b>   |  Email: <b>tuvan@kientrucphuongdong.vn</b>
+                    </p>
+                </div>
                 <div class="footer_content_social block">
-                    <p>Kết nối với Here East</p>
-                    <img class="social_ico_fb" src="images/icon/fb_n.png">
-                    <img class="social_ico_yt" src="images/icon/yt_n.png">
-                    <img class="social_ico_in" src="images/icon/in_n.png">
+                    <p>Follow us</p>
+                    <img class="social_ico_fb" src="images/facebook-logo-button@2x.png">
+                    <img class="social_ico_yt" src="images/youtube-logotype@2x.png">
+                    <img class="social_ico_in" src="images/instagram-logo@2x.png">
                 </div>
             </div>
         </div>
